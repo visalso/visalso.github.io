@@ -43,6 +43,13 @@ permalink: /
           ORCID
         </a>
       </p>
+
+      <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/visalso">
+          LinkedIn
+        </a>
+      </p>
     </div>
   </div>
 
