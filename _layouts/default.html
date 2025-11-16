@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
 
-{% include head.html %}
+  {% include head.html %}
 
-<header class="hover smooth">
-  <div class="header-top">
-    {% unless site.show_minimal and site.navigation and site.external %}
-      <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
-        <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      </h1>
-    {% endunless %}
-  </div>
+  <body>
+    <header class="hover smooth">
+      <div class="header-top">
+        {% unless site.show_minimal and site.navigation and site.external %}
+          <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
+            <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          </h1>
+        {% endunless %}
 
-  <div class="header-bottom">
-    {% include menu.html menu=site.navigation %}
-    {% include menu.html menu=site.external %}
-  </div>
-</header>
+        <!-- small banner on the same line as "Visal So" -->
+        <img
+          src="{{ '/assets/header_banner.png' | relative_url }}"
+          alt="Quantum simulation banner"
+          class="header-banner"
+        >
+      </div>
 
-{{ content }}
+      <div class="header-bottom">
+        {% include menu.html menu=site.navigation %}
+        {% include menu.html menu=site.external %}
+      </div>
+    </header>
 
-{%- if site.footer -%}
-<footer class="hover">
-  <div>{{ site.description }}</div>
-  {% include menu.html menu=site.footer %}
-</footer>
-{%- endif -%}
+    <main>
+      {{ content }}
+    </main>
 
+    {%- if site.footer -%}
+    <footer class="hover">
+      <div>{{ site.description }}</div>
+      {% include menu.html menu=site.footer %}
+    </footer>
+    {%- endif -%}
+  </body>
 </html>
