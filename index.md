@@ -53,7 +53,7 @@ permalink: /
     </div>
   </div>
 
-  <div style="flex: 1 1 260px; min-width: 260px; margin-left: 1.5rem;">
+  <div style="flex: 1 1 260px; min-width: 260px; margin-left: 0rem;">
     <p>
       I am a Ph.D. candidate in Physics at Rice University, working with
       Prof. Guido Pagano (<a href="https://paganolab.rice.edu/" target="_blank" rel="noopener noreferrer">Quantum Simulation Lab</a>) on quantum simulation using trapped-ion quantum technologies, with an anticipated
