@@ -10,20 +10,25 @@ body > *
 
 header.hover.smooth
   display: flex
-  align-items: center
+  flex-direction: column
+  gap: 0.35rem
 
-header.hover.smooth h1
-  margin: 0 1.5rem 0 0
-  white-space: nowrap
-
-/* first nav = main navigation */
-header.hover.smooth nav:first-of-type
-  margin-right: auto   // pushes the right block to the far right
-
-.header-right
+.header-top
   display: flex
   align-items: center
-  gap: 0.75rem         // space between banner and icons
+  justify-content: space-between
+
+.header-top h1
+  margin: 0
+
+.header-bottom
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.header-bottom nav
+  display: flex
+  align-items: center
 
 .header-banner
-  height: 24px         // tweak size as desired
+  height: 24px      // make banner small; tweak this as you like
