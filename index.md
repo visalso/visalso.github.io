@@ -36,6 +36,13 @@ permalink: /
           Google Scholar
         </a>
       </p>
+      
+      <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
+        <i class="fab fa-orcid" aria-hidden="true"></i>
+        <a href="https://orcid.org/0009-0001-1326-3120">
+          ORCID
+        </a>
+      </p>
     </div>
   </div>
 
