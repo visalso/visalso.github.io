@@ -3,7 +3,7 @@ layout: page_notitle
 title: ""
 permalink: /
 ---
-
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem; margin-top: 0;">
   <div style="flex: 0 0 220px; max-width: 240px;">
     <img src="/assets/prof_pic.jpg"
          alt="Visal So"
