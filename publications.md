@@ -35,10 +35,10 @@ title: "Publications"
 
 3. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
    <u><strong>V. So</strong></u>, M. Duraisamy Suganthi, M. Zhu, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, P. G. Wolynes, J. N. Onuchic, and G. Pagano.  
-   arXiv:2505.22729 (2025). Submitted.
+   arXiv:2505.22729 (2025). Submitted.  
    [arXiv link](https://arxiv.org/abs/2505.22729)
 
-4. **Fundamentals of trapped ions and quantum simulation of chemical dynamics.**  
+5. **Fundamentals of trapped ions and quantum simulation of chemical dynamics.**  
    G. Pagano, W. Adamczyk, and <u><strong>V. So</strong></u>.  
    Submitted to appear in the Proceedings of the Course 214 “Quantum Computers and Simulators with Atoms” of the International School of Physics “Enrico Fermi” (Varenna, July 2024).  
    arXiv:2505.20412 (2025).  
