@@ -3,4 +3,4 @@ title: "About"
 permalink: "/about/"
 layout: page
 ---
-Forked from [repository](https://github.com/niklasbuschmann/contrast).
+Forked from [contrast, powered by Jekyll](https://github.com/niklasbuschmann/contrast).
