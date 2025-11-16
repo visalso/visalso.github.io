@@ -11,14 +11,15 @@
   {% endunless %}
 
   {% include menu.html menu=site.navigation %}
-  {% include menu.html menu=site.external %}
 
-  <!-- New image sitting in the empty header area -->
-  <img
-    src="{{ '/assets/header_banner.png' | relative_url }}"
-    alt="Quantum simulation banner"
-    class="header-banner"
-  >
+  <div class="header-right">
+    <img
+      src="{{ '/assets/header_banner.png' | relative_url }}"
+      alt="Quantum simulation banner"
+      class="header-banner"
+    >
+    {% include menu.html menu=site.external %}
+  </div>
 </header>
 
 {{ content }}
