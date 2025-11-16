@@ -42,7 +42,7 @@ permalink: /
   <div style="flex: 1 1 260px; min-width: 260px; margin-left: 1.5rem;">
     <p>
       I am a Ph.D. candidate in Physics at Rice University, working with
-      Prof. Guido Pagano on trapped-ion quantum technologies, with an anticipated
+      Prof. Guido Pagano (<a href="https://paganolab.rice.edu/" target="_blank" rel="noopener noreferrer">Quantum Simulation Lab</a>) on trapped-ion quantum technologies, with an anticipated
       graduation in May 2026. My primary research focuses on experimental
       realizations of open-system dynamics in chemically motivated models with
       engineered coherent and dissipative interactions, sitting at the interface
