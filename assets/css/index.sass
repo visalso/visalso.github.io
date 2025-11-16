@@ -8,19 +8,13 @@ body > *
   padding: clamp(1.5em, 4vw, 1.75em) max(1.5em, calc(42% - 16rem))
   box-shadow: 0 1px gray(12), 0 1em 2em -1em rgba(light(16), .05)
 
-/* === custom header banner === */
-
 header.hover.smooth
-  display: flex
-  align-items: center
-
-header.hover.smooth h1
-  margin-right: 1.5rem
-
-header.hover.smooth nav
-  display: flex
-  align-items: center
+  position: relative
 
 .header-banner
-  height: 40px      // adjust size if you want
-  margin: 0 1.5rem  // space between menu and icons
+  position: absolute
+  top: 3.6rem      // adjust this value to move it up/down
+  left: 50%
+  transform: translateX(-50%)
+  height: 40px     // adjust size as you like
+  pointer-events: none
