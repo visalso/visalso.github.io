@@ -1,4 +1,4 @@
-<header class="hover smooth">
+<header class="hover smooth" style="display:flex; flex-direction:column; gap:0.35rem;">
 
   <div style="display:flex; align-items:center; justify-content:space-between;">
     {% unless site.show_minimal and site.navigation and site.external %}
@@ -14,7 +14,7 @@
     >
   </div>
 
-  <div style="display:flex; align-items:center; justify-content:space-between; margin-top:0.4rem;">
+  <div style="display:flex; align-items:center; justify-content:space-between;">
     <div>
       {% include menu.html menu=site.navigation %}
     </div>
