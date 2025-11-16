@@ -5,9 +5,20 @@
 
 <header class="hover smooth">
   {% unless site.show_minimal and site.navigation and site.external %}
-    <h1 {% if site.navigation and site.external %}class="full"{% endif %}><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+    <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
+      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </h1>
   {% endunless %}
+
   {% include menu.html menu=site.navigation %}
+
+  <!-- New banner image in the middle of the header -->
+  <img
+    src="{{ '/assets/header_banner.png' | relative_url }}"
+    alt="Quantum simulation banner"
+    class="header-banner"
+  >
+
   {% include menu.html menu=site.external %}
 </header>
 
