@@ -1,8 +1,8 @@
 <header class="hover smooth">
-  <div class="header-top"
-       style="display:flex; align-items:center; justify-content:space-between;">
+
+  <div style="display:flex; align-items:center; justify-content:space-between;">
     {% unless site.show_minimal and site.navigation and site.external %}
-      <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
+      <h1 {% if site.navigation and site.external %}class="full"{% endif %} style="margin:0;">
         <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       </h1>
     {% endunless %}
@@ -10,12 +10,17 @@
     <img
       src="{{ '/assets/header_banner.png' | relative_url }}"
       alt="Quantum simulation banner"
-      style="height:24px; width:auto; margin-left:1rem;"
+      style="height:24px; width:auto; display:block; margin-left:1rem;"
     >
   </div>
 
-  <div class="header-bottom">
-    {% include menu.html menu=site.navigation %}
-    {% include menu.html menu=site.external %}
+  <div style="display:flex; align-items:center; justify-content:space-between; margin-top:0.4rem;">
+    <div>
+      {% include menu.html menu=site.navigation %}
+    </div>
+    <div>
+      {% include menu.html menu=site.external %}
+    </div>
   </div>
+
 </header>
