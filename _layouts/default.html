@@ -4,20 +4,23 @@
 {% include head.html %}
 
 <header class="hover smooth">
-  {% unless site.show_minimal and site.navigation and site.external %}
-    <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
-      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </h1>
-  {% endunless %}
+  <div class="header-top">
+    {% unless site.show_minimal and site.navigation and site.external %}
+      <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
+        <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      </h1>
+    {% endunless %}
 
-  {% include menu.html menu=site.navigation %}
-
-  <div class="header-right">
+    <!-- Banner on the same line as "Visal So" -->
     <img
       src="{{ '/assets/header_banner.png' | relative_url }}"
       alt="Quantum simulation banner"
       class="header-banner"
     >
+  </div>
+
+  <div class="header-bottom">
+    {% include menu.html menu=site.navigation %}
     {% include menu.html menu=site.external %}
   </div>
 </header>
