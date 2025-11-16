@@ -19,7 +19,7 @@ permalink: /
       <p style="margin: 0.6rem 0 0.2rem;"><strong>Contact</strong></p>
   
       <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
-        <span class="fa fa-envelope" aria-hidden="true"></span>
+        <span>📧</span>
         <a href="mailto:vs39@rice.edu">vs39@rice.edu</a>
       </p>
       
