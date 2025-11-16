@@ -11,25 +11,25 @@ permalink: /
   
     <div style="margin-top: 1rem; font-size: 0.9rem; line-height: 1.4;">
       <p>
-        Department of Physics &amp; Astronomy<br>
+        <span style="white-space: nowrap;">Department of Physics &amp; Astronomy</span><br>
         Rice University<br>
         Houston, TX, USA
       </p>
   
       <p style="margin: 0.6rem 0 0.2rem;"><strong>Contact</strong></p>
   
-      <p style="margin: 0.15rem 0;">
-        <i class="fas fa-envelope"></i>
+      <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
+        <span class="fa fa-envelope" aria-hidden="true"></span>
         <a href="mailto:vs39@rice.edu">vs39@rice.edu</a>
       </p>
-  
-      <p style="margin: 0.15rem 0;">
-        <i class="fab fa-github"></i>
+      
+      <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
+        <span class="fa fa-github" aria-hidden="true"></span>
         <a href="https://github.com/visalso">Github (visalso)</a>
       </p>
-  
-      <p style="margin: 0.15rem 0;">
-        <i class="fas fa-graduation-cap"></i>
+      
+      <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span>
         <a href="https://scholar.google.com/citations?user=hl-oGi4AAAAJ&amp;hl=en">
           Google Scholar
         </a>
