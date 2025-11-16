@@ -1,16 +1,16 @@
 <header class="hover smooth">
-  <div class="header-top">
+  <div class="header-top"
+       style="display:flex; align-items:center; justify-content:space-between;">
     {% unless site.show_minimal and site.navigation and site.external %}
       <h1 {% if site.navigation and site.external %}class="full"{% endif %}>
         <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       </h1>
     {% endunless %}
 
-    <!-- small banner on the same line as "Visal So" -->
     <img
       src="{{ '/assets/header_banner.png' | relative_url }}"
       alt="Quantum simulation banner"
-      class="header-banner"
+      style="height:24px; width:auto; margin-left:1rem;"
     >
   </div>
 
