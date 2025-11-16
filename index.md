@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "About me"
+layout: page_notitle
+title: ""
 permalink: /
 ---
 
@@ -10,11 +10,13 @@ permalink: /
     <img src="/assets/prof_pic.jpg"
          alt="Visal So"
          style="width: 100%; border-radius: 50%;">
-
+    
     <div style="margin-top: 1rem; font-size: 0.9rem; line-height: 1.4;">
-      <p>Department of Physics &amp; Astronomy<br>
-         Rice University<br>
-         Houston, TX, USA</p>
+      <p>
+        <span style="white-space: nowrap;">Department of Physics &amp; Astronomy</span><br>
+        Rice University<br>
+        Houston, TX, USA
+      </p>
     </div>
   </div>
 
