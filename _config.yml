@@ -19,7 +19,7 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "About Me", sidebaricon: home}
-  - {url: "/CV.pdf", title: "CV", sidebaricon: address-card}
+  - {file: "cv.md", title: "CV", sidebaricon: address-card}
   - {file: "publications.md", title: "Publications", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
