@@ -4,6 +4,11 @@ title: ""
 permalink: /Miscellanea/
 ---
 
+## Delocalized excitation transfer in open quantum systems with long-range interactions
+
+Rice News:
+[Quantum leap: Entangled states enhance energy transfer in models of molecular systems](https://news.rice.edu/news/2025/quantum-leap-entangled-states-enhance-energy-transfer-models-molecular-systems)
+
 ## Quantum simulation of charge and exciton transfer in multi-mode models using engineered reservoirs
 
 Contributed talk at the 2025 QSim Conference in New York City on August 8, hosted by Institute for Robust Quantum Simulation (RQS).
