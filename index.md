@@ -62,6 +62,11 @@ permalink: /
       engineered coherent and dissipative interactions, which sits at the interface
       of quantum information, AMO physics, and condensed-matter and chemical physics.
     </p>
+    <br>
+    <p>
+      My research goal is to advance the frontier of quantum science by developing hardware-efficient tools and protocols from the ground up, adding one crucial ingredient at a time, to enable the
+      exploration of regimes inaccessible to classical methods. This integrated strategy is key to realizing the full potential of quantum technologies, both for deepening our understanding of the fundamental laws of nature          and for delivering practical benefits.
+    </p>
   </div>
 
 </div>
