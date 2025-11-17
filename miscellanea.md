@@ -4,7 +4,7 @@ title: ""
 permalink: /Miscellanea/
 ---
 
-## Quantum Simulation of Charge and Exciton Transfer in Multi-Mode Models using Engineered Reservoirs
+## Quantum simulation of charge and exciton transfer in multi-mode models using engineered reservoirs
 
 Contributed talk at the 2025 QSim Conference in New York City on August 8, hosted by Institute for Robust Quantum Simulation (RQS).
 
@@ -17,3 +17,11 @@ Contributed talk at the 2025 QSim Conference in New York City on August 8, hoste
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
   </iframe>
 </div>
+
+## Trapped-ion quantum simulation of electron transfer models with tunable dissipation
+
+Featured article in February 2025's "Milestones in Science" on celebrating 50 years of discovery at Rice University:
+[Visal So advances electron transfer research with trapped ions](https://naturalsciences.rice.edu/news/visal-so-advances-electron-transfer-research-trapped-ions)
+
+Rice News and Phys.org:  
+[Rice researchers take significant leap forward in quantum simulation of molecular electron transfer](https://news.rice.edu/news/2024/rice-researchers-take-significant-leap-forward-quantum-simulation-molecular-electron)
