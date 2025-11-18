@@ -10,13 +10,31 @@ body > *
 
 header.hover.smooth
   position: relative
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  gap: 1rem
+
+.search-form
+  margin-left: 1.5rem
+
+.search-form input[type="search"]
+  padding: 0.2rem 0.5rem
+  border-radius: 3px
+  border: 1px solid rgba(255, 255, 255, 0.35)
+  background-color: transparent
+  color: #fff
+  font-size: 0.85rem
+
+.search-form input[type="search"]::placeholder
+  color: rgba(255, 255, 255, 0.6)
 
 .header-banner
   position: absolute
-  top: 3.6rem      // adjust this value to move it up/down
+  top: 3.6rem      // keep your existing placement
   left: 50%
   transform: translateX(-50%)
-  height: 40px     // adjust size as you like
+  height: 40px
   pointer-events: none
 
 .hero-banner
