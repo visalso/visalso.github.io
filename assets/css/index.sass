@@ -11,12 +11,26 @@ body > *
 header.hover.smooth
   position: relative
   display: flex
-  align-items: center
-  flex-wrap: wrap
-  gap: 1rem
+  flex-direction: column
+  gap: 0.4rem
 
-.search-form
-  margin-left: 1.5rem
+.header-top
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.header-top h1
+  margin: 0
+
+.header-bottom
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.header-nav,
+.header-icons
+  display: flex
+  align-items: center
 
 .search-form input[type="search"]
   padding: 0.2rem 0.5rem
@@ -31,7 +45,7 @@ header.hover.smooth
 
 .header-banner
   position: absolute
-  top: 3.6rem      // keep your existing placement
+  top: 3.6rem
   left: 50%
   transform: translateX(-50%)
   height: 40px
@@ -44,3 +58,4 @@ header.hover.smooth
   width: 100%
   display: block
   border-radius: 12px
+
