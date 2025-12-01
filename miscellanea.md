@@ -4,7 +4,7 @@ title: ""
 permalink: /Miscellanea/
 ---
 
-## Recognition for work on quantum simulation of open-system chemical dynamics using trapped ions in Munich, Germany (2025)
+## Recognition for work on quantum simulation of open-system chemical dynamics using trapped ions -- Munich, Germany (2025)
 
 Munich Quantum Valley News:
 [Quantum Talents Symposium 2025](https://www.munich-quantum-valley.de/news-events/detail/quantum-talents-symposium-2025)
