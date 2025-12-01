@@ -14,6 +14,9 @@ Munich Quantum Valley News:
 Rice News:
 [Quantum leap: Entangled states enhance energy transfer in models of molecular systems](https://news.rice.edu/news/2025/quantum-leap-entangled-states-enhance-energy-transfer-models-molecular-systems)
 
+Phys.org:
+[Entangled states enhance energy transfer in models of molecular systems](https://phys.org/news/2025-10-entangled-states-energy-molecular.html)
+
 ## Quantum simulation of charge and exciton transfer in multi-mode models using engineered reservoirs
 
 Contributed talk at the 2025 QSim Conference in New York City on August 8, hosted by Institute for Robust Quantum Simulation (RQS).
