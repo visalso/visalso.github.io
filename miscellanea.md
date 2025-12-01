@@ -38,3 +38,6 @@ Featured article in February 2025's "Milestones in Science" on celebrating 50 ye
 
 Rice News and Phys.org:  
 [Rice researchers take significant leap forward in quantum simulation of molecular electron transfer](https://news.rice.edu/news/2024/rice-researchers-take-significant-leap-forward-quantum-simulation-molecular-electron)
+
+Invited talk at the January 2025 Rice Quantum Initiative Seminar:
+
