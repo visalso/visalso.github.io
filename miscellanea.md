@@ -11,6 +11,13 @@ Munich Quantum Valley News:
 
 Delivered an invited talk at the symposium as a finalist:
 [Finalists of the 2025 Quantum Talents Symposium](https://www.mcqst.de/quantum-talents-munich/quantum-talents-finalists-2025.html)
+<p>
+  If you have trouble viewing the presentation in your browser, you can
+  <a href="/munich_qts_2025.pdf">download it here</a>.
+</p>
+
+<object data="/munich_qts_2025.pdf" type="application/pdf" width="100%" height="900px">
+</object>
 
 ## Delocalized excitation transfer in open quantum systems with long-range interactions
 
