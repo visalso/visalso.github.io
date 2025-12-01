@@ -17,6 +17,11 @@ Rice News:
 Phys.org:
 [Entangled states enhance energy transfer in models of molecular systems](https://phys.org/news/2025-10-entangled-states-energy-molecular.html)
 
+## Poster presentation at the 2025 Texas Quantum Submit
+
+All online posters from the first Texas Quantum Summit, held Sept. 19–20 at Texas A&M University, are available at the link below:
+[See page 30: Open-System Quantum Simulation of Chemical Dynamics with Trapped Ions][https://drive.google.com/file/d/11Ts28LW5olm5yQ1Ygth8aIDU3UXBM0eu/view]
+
 ## Quantum simulation of charge and exciton transfer in multi-mode models using engineered reservoirs
 
 Contributed talk at the 2025 QSim Conference in New York City on August 8, hosted by Institute for Robust Quantum Simulation (RQS).
