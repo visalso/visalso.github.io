@@ -9,6 +9,9 @@ permalink: /Miscellanea/
 Munich Quantum Valley News:
 [Quantum Talents Symposium 2025](https://www.munich-quantum-valley.de/news-events/detail/quantum-talents-symposium-2025)
 
+Delivered an invited talk at the symposium as a finalist:
+[Finalists of the 2025 Quantum Talents Symposium](https://www.mcqst.de/quantum-talents-munich/quantum-talents-finalists-2025.html)
+
 ## Delocalized excitation transfer in open quantum systems with long-range interactions
 
 Rice News:
