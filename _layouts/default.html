@@ -36,12 +36,22 @@
 
 {{ content }}
 
-{%- if site.footer -%}
 <footer class="hover">
-  <div>{{ site.description }}</div>
-  {% include menu.html menu=site.footer %}
+  {% if site.description %}
+    <div>{{ site.description }}</div>
+  {% endif %}
+
+  <div class="footer-credit">
+    Forked from
+    <a href="https://github.com/niklasbuschmann/contrast">contrast</a>,
+    powered by
+    <a href="https://jekyllrb.com/">Jekyll</a>.
+  </div>
+
+  {% if site.footer %}
+    {% include menu.html menu=site.footer %}
+  {% endif %}
 </footer>
-{%- endif -%}
 
 <script>
 var searchIndex = [
