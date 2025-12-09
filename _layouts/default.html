@@ -45,9 +45,8 @@
 
 <script>
 var searchIndex = [
-  {% assign searchable_pages = site.pages  | where_exp: "page", "page.search != false" %}
-  {% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
-  {% assign docs = searchable_pages | concat: searchable_posts %}
+  {% assign searchable_pages = site.pages | where_exp: "page", "page.search == true" %}
+  {% assign docs = searchable_pages %}
   {% for doc in docs %}
   {
     "title": {{ doc.title | default: doc.url | jsonify }},
