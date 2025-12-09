@@ -46,6 +46,7 @@ header.hover.smooth
     display: flex
     align-items: center
     justify-content: space-between
+    width: 100%
     gap: 1rem
 
   .site-search
@@ -64,17 +65,13 @@ header.hover.smooth
       &::placeholder
         color: rgba(255, 255, 255, .6)
 
-.search-results
-  margin: .5rem 0 0
-  padding-left: 0
-  list-style: none
+  .header-menus
+    margin-top: .4rem
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    gap: 1.5rem
 
-  li
-    margin-bottom: .25rem
-
-    a
-      text-decoration: none
-      color: inherit
-
-      &:hover
-        text-decoration: underline
+    nav
+      position: static !important
+      display: inline-block
