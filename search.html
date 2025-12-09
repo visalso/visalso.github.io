@@ -1,0 +1,76 @@
+---
+layout: page
+title: Search
+permalink: /search/
+---
+
+<h1>Search</h1>
+
+<input type="search" id="search-input" placeholder="Search…">
+<ul id="search-results"></ul>
+
+<script>
+(function () {
+  function getQuery() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('q') || '';
+  }
+
+  var store = [
+    {% for page in site.pages %}
+      {
+        "title": {{ page.title | jsonify }},
+        "url": {{ page.url | relative_url | jsonify }},
+        "content": {{ page.content | strip_html | strip_newlines | jsonify }}
+      }{% unless forloop.last and site.posts.size == 0 %},{% endunless %}
+    {% endfor %}
+    {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+      {
+        "title": {{ post.title | jsonify }},
+        "url": {{ post.url | relative_url | jsonify }},
+        "content": {{ post.content | strip_html | strip_newlines | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% endif %}
+  ];
+
+  function search(q) {
+    q = q.toLowerCase();
+    if (!q) return [];
+    return store.filter(function (item) {
+      return item.title.toLowerCase().indexOf(q) !== -1 ||
+             item.content.toLowerCase().indexOf(q) !== -1;
+    });
+  }
+
+  function render(results, q) {
+    var list = document.getElementById('search-results');
+    list.innerHTML = '';
+    if (!q) return;
+    if (!results.length) {
+      list.innerHTML = '<li>No results found.</li>';
+      return;
+    }
+    results.forEach(function (item) {
+      var li = document.createElement('li');
+      li.innerHTML = '<a href="' + item.url + '">' + item.title + '</a>';
+      list.appendChild(li);
+    });
+  }
+
+  var input = document.getElementById('search-input');
+  var query = getQuery();
+  input.value = query;
+  render(search(query), query);
+
+  input.addEventListener('input', function (e) {
+    query = e.target.value;
+    var newUrl = window.location.pathname + (query ? '?q=' + encodeURIComponent(query) : '');
+    if (history.replaceState) {
+      history.replaceState(null, '', newUrl);
+    }
+    render(search(query), query);
+  });
+})();
+</script>
