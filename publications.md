@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Publications"
+search: true
 ---
 
 ## Published Manuscripts
