@@ -11,7 +11,6 @@
       </h1>
     {% endunless %}
 
-    <!-- Search bar on same line as title -->
     <form class="site-search" onsubmit="return false;">
       <input type="search" id="global-search-input" placeholder="Search..." />
     </form>
@@ -46,7 +45,9 @@
 
 <script>
 var searchIndex = [
-  {% assign docs = site.pages | concat: site.posts %}
+  {% assign searchable_pages = site.pages  | where_exp: "page", "page.search != false" %}
+  {% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
+  {% assign docs = searchable_pages | concat: searchable_posts %}
   {% for doc in docs %}
   {
     "title": {{ doc.title | default: doc.url | jsonify }},
