@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "About Me"
-search: true
 ---
 
 {% if site.show_excerpts %}
