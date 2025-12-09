@@ -11,12 +11,9 @@
       </h1>
     {% endunless %}
 
-    <form class="site-search"
-          action="{{ '/search/' | relative_url }}"
-          method="get">
-      <input type="search"
-             name="q"
-             placeholder="Search...">
+    <!-- Search bar on the same line as the title -->
+    <form class="site-search" onsubmit="return false;">
+      <input type="search" id="global-search-input" placeholder="Search..." />
     </form>
   </div>
 
@@ -30,6 +27,8 @@
   >
 </header>
 
+<ul id="search-results" class="search-results"></ul>
+
 {{ content }}
 
 {%- if site.footer -%}
@@ -39,4 +38,54 @@
 </footer>
 {%- endif -%}
 
+<script>
+// Build an index of all pages and posts at build time
+var searchIndex = [
+  {% assign docs = site.pages | concat: site.posts %}
+  {% for doc in docs %}
+  {
+    "title": {{ doc.title | default: doc.url | jsonify }},
+    "url": {{ doc.url | relative_url | jsonify }},
+    "content": {{ doc.content | strip_html | strip_newlines | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+(function () {
+  var input = document.getElementById('global-search-input');
+  var resultsList = document.getElementById('search-results');
+  if (!input || !resultsList) return;
+
+  function search(q) {
+    q = q.trim().toLowerCase();
+    if (!q) return [];
+    return searchIndex.filter(function (item) {
+      var title = (item.title || '').toLowerCase();
+      var content = (item.content || '').toLowerCase();
+      return title.indexOf(q) !== -1 || content.indexOf(q) !== -1;
+    }).slice(0, 20); // up to 20 results
+  }
+
+  function render(results) {
+    resultsList.innerHTML = '';
+    if (!results.length) return;
+
+    results.forEach(function (item) {
+      var li = document.createElement('li');
+      var title = item.title || item.url;
+      li.innerHTML = '<a href="' + item.url + '">' + title + '</a>';
+      resultsList.appendChild(li);
+    });
+  }
+
+  input.addEventListener('input', function (e) {
+    var q = e.target.value;
+    if (!q.trim()) {
+      resultsList.innerHTML = '';
+      return;
+    }
+    render(search(q));
+  });
+})();
+</script>
 </html>
