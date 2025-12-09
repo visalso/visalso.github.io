@@ -75,13 +75,11 @@ var searchIndex = [
     q = q || '';
     resultsList.innerHTML = '';
 
-    // hide when there is no input
     if (!q.trim()) {
       resultsList.style.display = 'none';
       return;
     }
 
-    // show container
     resultsList.style.display = 'block';
 
     if (!results.length) {
@@ -97,7 +95,9 @@ var searchIndex = [
     });
   }
 
-  // on input
+  // 🔹 Hide results on initial page load
+  render([], '');
+
   input.addEventListener('input', function (e) {
     var q = e.target.value;
     render(search(q), q);
