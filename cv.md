@@ -2,6 +2,7 @@
 layout: page_notitle
 title: ""
 permalink: /CV/
+search: true
 ---
 
 ## Curriculum Vitae
