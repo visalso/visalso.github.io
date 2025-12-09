@@ -42,6 +42,12 @@ article, main
   flex-grow: 1
 
 header.hover.smooth
+  // stack header sections vertically
+  display: flex
+  flex-direction: column
+  align-items: stretch
+
+  // first row: title + search bar
   .header-top
     display: flex
     align-items: center
@@ -65,17 +71,22 @@ header.hover.smooth
       &::placeholder
         color: rgba(255, 255, 255, .6)
 
+  // second row: text links left, icons right
   .header-menus
     margin-top: .4rem
     display: flex
     align-items: center
-    gap: 1.5rem
+    justify-content: space-between
+    width: 100%
 
-    nav
-      position: static !important
-      
-    nav:first-of-type
-      margin-right: auto
+  .header-nav,
+  .header-icons
+    display: flex
+    align-items: center
+
+  .header-nav nav,
+  .header-icons nav
+    position: static
       
   .search-results
     margin: .5rem 0 0
