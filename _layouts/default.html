@@ -11,14 +11,16 @@
       </h1>
     {% endunless %}
 
-    <!-- Search bar on the same line as the title -->
+    <!-- Search bar on same line as title -->
     <form class="site-search" onsubmit="return false;">
       <input type="search" id="global-search-input" placeholder="Search..." />
     </form>
   </div>
 
-  {% include menu.html menu=site.navigation %}
-  {% include menu.html menu=site.external %}
+  <div class="header-menus">
+    {% include menu.html menu=site.navigation %}
+    {% include menu.html menu=site.external %}
+  </div>
 
   <img
     src="{{ '/assets/header_banner.png' | relative_url }}"
