@@ -18,8 +18,12 @@
   </div>
 
   <div class="header-menus">
-    {% include menu.html menu=site.navigation %}
-    {% include menu.html menu=site.external %}
+    <div class="header-nav">
+      {% include menu.html menu=site.navigation %}
+    </div>
+    <div class="header-icons">
+      {% include menu.html menu=site.external %}
+    </div>
   </div>
 
   <img
