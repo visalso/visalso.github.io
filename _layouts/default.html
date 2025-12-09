@@ -36,17 +36,19 @@
 
 {{ content }}
 
-<footer class="hover">
+<footer class="hover footer-bar">
+  <div class="footer-left">
+    <button type="button" class="share-button" onclick="sharePage()">
+      Share this page
+    </button>
+  </div>
+
   <div class="footer-credit">
     Forked from
     <a href="https://github.com/niklasbuschmann/contrast">contrast</a>,
     powered by
     <a href="https://jekyllrb.com/">Jekyll</a>.
   </div>
-
-  {% if site.footer %}
-    {% include menu.html menu=site.footer %}
-  {% endif %}
 </footer>
 
 <script>
@@ -109,5 +111,23 @@ var searchIndex = [
     render(search(q), q);
   });
 })();
+</script>
+  
+<script>
+function sharePage() {
+  if (navigator.share) {
+    navigator.share({
+      title: document.title,
+      url: window.location.href
+    });
+  } else {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(window.location.href);
+      alert('Link copied to clipboard.');
+    } else {
+      alert(window.location.href);
+    }
+  }
+}
 </script>
 </html>
