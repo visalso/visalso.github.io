@@ -45,7 +45,6 @@
 {%- endif -%}
 
 <script>
-// Build an index of all pages and posts at build time
 var searchIndex = [
   {% assign docs = site.pages | concat: site.posts %}
   {% for doc in docs %}
@@ -69,12 +68,26 @@ var searchIndex = [
       var title = (item.title || '').toLowerCase();
       var content = (item.content || '').toLowerCase();
       return title.indexOf(q) !== -1 || content.indexOf(q) !== -1;
-    }).slice(0, 20); // up to 20 results
+    }).slice(0, 20);
   }
 
-  function render(results) {
+  function render(results, q) {
+    q = q || '';
     resultsList.innerHTML = '';
-    if (!results.length) return;
+
+    // hide when there is no input
+    if (!q.trim()) {
+      resultsList.style.display = 'none';
+      return;
+    }
+
+    // show container
+    resultsList.style.display = 'block';
+
+    if (!results.length) {
+      resultsList.innerHTML = '<li>No results found.</li>';
+      return;
+    }
 
     results.forEach(function (item) {
       var li = document.createElement('li');
@@ -84,13 +97,10 @@ var searchIndex = [
     });
   }
 
+  // on input
   input.addEventListener('input', function (e) {
     var q = e.target.value;
-    if (!q.trim()) {
-      resultsList.innerHTML = '';
-      return;
-    }
-    render(search(q));
+    render(search(q), q);
   });
 })();
 </script>
