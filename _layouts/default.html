@@ -49,7 +49,7 @@ var searchIndex = [
   {% assign docs = searchable_pages %}
   {% for doc in docs %}
   {
-    "title": {{ doc.title | default: doc.url | jsonify }},
+    "title": {{ doc.search_title | default: doc.title | default: doc.url | jsonify }},
     "url": {{ doc.url | relative_url | jsonify }},
     "content": {{ doc.content | strip_html | strip_newlines | jsonify }}
   }{% unless forloop.last %},{% endunless %}
