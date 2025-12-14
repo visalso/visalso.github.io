@@ -1,9 +1,9 @@
 ---
 layout: page_notitle
 title: ""
-permalink: /Miscellanea/
+permalink: /Research Highlights/
 search: true
-search_title: "Miscellanea"
+search_title: "Research Highlights"
 ---
 
 ## Recognition for work on quantum simulation of open-system chemical dynamics using trapped ions -- Munich, Germany (2025)
