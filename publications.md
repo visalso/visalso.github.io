@@ -8,7 +8,8 @@ search: true
 
 1. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
    <u><strong>V. So</strong></u>, M. Duraisamy Suganthi, M. Zhu, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, P. G. Wolynes, J. N. Onuchic, and G. Pagano.
-   *Nature Communications*, 438 (2026).
+
+   *Nature Communications* **17**, 438 (2026).
    [Journal link](https://www.nature.com/articles/s41467-025-67116-6)
 
 3. **Precision measurement of lifetime and branching ratios of 4f¹³5d6s ¹[5/2]₅/₂ state in Yb⁺ ions.**  
