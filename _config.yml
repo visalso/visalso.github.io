@@ -25,7 +25,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:vs39@rice.edu"}
-  - {title: Github, icon: github, url: "https://github.com/visalso"}
+  #- {title: Github, icon: github, url: "https://github.com/visalso"}
   - {title: Google scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=hl-oGi4AAAAJ&hl=en"}
   - {title: ORCID, icon: orcid, url: "https://orcid.org/0009-0001-1326-3120"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/visalso"}
