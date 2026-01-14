@@ -27,11 +27,12 @@ search_title: "About Me"
         <a href="mailto:vs39@rice.edu">vs39@rice.edu</a>
       </p>
       
+      <!--
       <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
         <i class="fab fa-github" aria-hidden="true"></i>
         <a href="https://github.com/visalso">Github (visalso)</a>
       </p>
-      
+      -->
       <p style="margin: 0.15rem 0; display: flex; align-items: center; gap: 0.4rem;">
         <i class="fas fa-graduation-cap" aria-hidden="true"></i>
         <a href="https://scholar.google.com/citations?user=hl-oGi4AAAAJ&amp;hl=en">
