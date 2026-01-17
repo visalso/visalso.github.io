@@ -36,7 +36,7 @@ All online posters from the first Texas Quantum Summit, held September 19-20 at 
 
 ## Quantum simulation of charge and exciton transfer in multi-mode models using engineered reservoirs
 
-Rice News:  
+Rice News (including summary video) and Phys.org:  
 [Quantum simulator sheds light on how nature moves energy in systems like photosynthesis and solar conversion](https://news.rice.edu/news/2026/quantum-simulator-sheds-light-how-nature-moves-energy-systems-photosynthesis-and-solar)
 
 Contributed talk at the 2025 QSim Conference in New York City on August 8, hosted by Institute for Robust Quantum Simulation (RQS).
