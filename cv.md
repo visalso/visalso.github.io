@@ -9,7 +9,8 @@ search_title: "Curriculum Vitae"
 ## Curriculum Vitae
 
 <p>
-  Last update: 2026-03-15//
+  Last update: 2026-03-15
+  
   If you have trouble viewing the CV in your browser, you can
   <a href="/cv_web.pdf">download it here</a>.
 </p>
@@ -20,7 +21,8 @@ search_title: "Curriculum Vitae"
 ## Single-Page Resume
 
 <p>
-  Last update: 2026-03-15//
+  Last update: 2026-03-15
+  
   If you have trouble viewing the single-page resume in your browser, you can
   <a href="/resume_web.pdf">download it here</a>.
 </p>
