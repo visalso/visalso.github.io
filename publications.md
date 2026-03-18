@@ -34,12 +34,17 @@ search: true
 
 ## Preprints
 
-1. **Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator.**  
+1. **Monolithic segmented 3D ion trap for quantum technology applications.**  
+   A. Menon, M. Straus, G. Tomaras, L. Jeanette, A. X. Sheffield, D. Valdez, Y. Xie, <u><strong>V. So</strong></u>, H. D. Luo, M. Duraisamy Suganthi, M. Dugan, P. Bado, N. M. Linke, G. Pagano, and R. Zhuravel.  
+   arXiv:2603.16048 (2026).  
+   [arXiv link](https://arxiv.org/abs/2603.16048)
+
+2. **Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator.**  
    <u><strong>V. So</strong></u>, M. Zhu, M. Duraisamy Suganthi, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, and G. Pagano.  
    arXiv:2511.08689 (2025).  
    [arXiv link](https://arxiv.org/abs/2511.08689)
 
-2. **Fundamentals of trapped ions and quantum simulation of chemical dynamics.**  
+3. **Fundamentals of trapped ions and quantum simulation of chemical dynamics.**  
    G. Pagano, W. Adamczyk, and <u><strong>V. So</strong></u>.  
    Submitted to appear in the Proceedings of the Course 214 “Quantum Computers and Simulators with Atoms” of the International School of Physics “Enrico Fermi” (Varenna, July 2024).  
    arXiv:2505.20412 (2025).  
