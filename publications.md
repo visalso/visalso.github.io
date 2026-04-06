@@ -4,7 +4,7 @@ title: "Publications"
 search: true
 ---
 
-## Published Manuscripts
+## Peer-reviewed Manuscripts
 
 1. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
    <u><strong>V. So</strong></u>, M. Duraisamy Suganthi, M. Zhu, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, P. G. Wolynes, J. N. Onuchic, and G. Pagano.    
