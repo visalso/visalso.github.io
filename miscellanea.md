@@ -8,11 +8,13 @@ search_title: "Research Highlights"
 
 ## Doctorate completed at Rice University under the supervision of Prof. Guido Pagano -- Houston, Texas (2026)
 
-Successfully defended my dissertation, titled <strong>"Trapped-ion quantum simulation of open-system chemical dynamics,"<\strong> on April 22, 2026.
-<u>Committee members:<\u> Prof. Guido Pagano (Chair), Prof. Randall G. Hulet, and Prof. Songtao Chen.
+Successfully defended my dissertation, titled <strong>"Trapped-ion quantum simulation of open-system chemical dynamics,"</strong> on April 22, 2026.
+
+<u>Committee members:</u> Prof. Guido Pagano (Chair), Prof. Randall G. Hulet, and Prof. Songtao Chen.
 Submitted my thesis to Rice University’s open-access repository on April 24, 2026.
 
 The up-to-date version (April 26, 2026) can be viewed in the browser below or downloaded here.
+
 The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
 
 ## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
