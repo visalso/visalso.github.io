@@ -6,6 +6,15 @@ search: true
 search_title: "Research Highlights"
 ---
 
+## Doctorate completed at Rice University under the supervision of Prof. Guido Pagano -- Houston, Texas (2026)
+
+Successfully defended my dissertation, titled "Trapped-ion quantum simulation of open-system chemical dynamics," on April 22,2026.
+Committee members: Prof. Guido Pagano (Chair), Prof. Randall G. Hulet, and Prof. Songtao Chen.
+
+## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
+
+Awarded a three-year fellowship to pursue experimental quantum information science research with individually controlled neutral atoms in the Endres Lab.
+
 ## Recognition for work on quantum simulation of open-system chemical dynamics using trapped ions -- Munich, Germany (2025)
 
 Munich Quantum Valley News:
