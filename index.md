@@ -58,12 +58,7 @@ search_title: "About Me"
 
   <div style="flex: 1 1 260px; min-width: 260px; margin-left: 0rem;">
     <p>
-      I am a Ph.D. candidate in Physics at Rice University, working with
-      Prof. Guido Pagano (<a href="https://paganolab.rice.edu/" target="_blank" rel="noopener noreferrer">Quantum Simulation Lab</a>) on quantum simulation using trapped-ion quantum technologies, with an anticipated
-      graduation in May 2026. My primary research focuses on experimental
-      realizations of open-system dynamics in chemically motivated models with
-      engineered coherent and dissipative interactions, which sits at the interface
-      of quantum information, AMO physics, and condensed-matter and chemical physics.
+      I received my Ph.D. in Physics from Rice University under the advisement of Prof. Guido Pagano (<a href="https://paganolab.rice.edu/" target="_blank" rel="noopener noreferrer">Quantum Simulation Lab</a>), working on quantum simulation with trapped-ion quantum technologies. My dissertation focuses on experimental realizations of open-system dynamics in chemically motivated models with engineered coherent and dissipative interactions, at the interface of quantum information, AMO physics, condensed-matter physics, and chemical physics.
     </p>
     <p>
       My research goal is to advance the frontier of quantum science by developing hardware-efficient tools and protocols from the ground up, adding one crucial ingredient at a time, to enable the
