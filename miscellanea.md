@@ -14,9 +14,7 @@ Successfully defended the dissertation, titled <strong>"Trapped-ion quantum simu
 
 Submitted the thesis to Rice University’s open-access repository on April 24, 2026.
 
-The up-to-date version (April 26, 2026) can be viewed in the browser below or downloaded here.
-
-The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
+The up-to-date version (April 26, 2026) can be downloaded here. The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
 
 ## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
 
