@@ -16,7 +16,15 @@ Submitted the thesis to Rice University’s open-access repository on April 24, 
 
 The up-to-date version (April 26, 2026) can be read below or downloaded [here](https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link). The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
 
-<iframe src="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/preview" width="640" height="480"></iframe>
+<div style="width:100%; height:900px; margin-top:1rem;">
+  <iframe
+    src="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/preview"
+    width="100%"
+    height="100%"
+    style="border:0;"
+    allow="autoplay">
+  </iframe>
+</div>
 
 ## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
 
@@ -45,7 +53,7 @@ Rice News:
 Phys.org:
 [Entangled states enhance energy transfer in models of molecular systems](https://phys.org/news/2025-10-entangled-states-energy-molecular.html)
 
-## Poster presentation at the 2025 Texas Quantum Submit
+## Poster presentation at the 2025 Texas Quantum Summit
 
 All online posters from the first Texas Quantum Summit, held September 19-20 at Texas A&M University, are available at the link below:
 [See page 30: Open-System Quantum Simulation of Chemical Dynamics with Trapped Ions](https://drive.google.com/file/d/11Ts28LW5olm5yQ1Ygth8aIDU3UXBM0eu/view)
