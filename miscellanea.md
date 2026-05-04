@@ -6,6 +6,41 @@ search: true
 search_title: "Research Highlights"
 ---
 
+<style>
+  .pdf-embed {
+    width: 100%;
+    height: 900px;
+    margin: 1rem 0 2rem 0;
+    overflow: hidden;
+  }
+
+  .pdf-embed iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: static;
+  }
+
+  .video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
 ## Doctorate completed at Rice University under the supervision of Prof. Guido Pagano -- Houston, Texas (2026)
 
 Successfully defended the dissertation, titled <strong>"Trapped-ion quantum simulation of open-system chemical dynamics,"</strong> on April 22, 2026.
@@ -16,12 +51,10 @@ Submitted the thesis to Rice University’s open-access repository on April 24, 
 
 The up-to-date version (April 26, 2026) can be read below or downloaded [here](https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link). The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
 
-<div style="width:100%; height:900px; margin-top:1rem;">
+<div class="pdf-embed" markdown="0">
   <iframe
+    title="Trapped-ion quantum simulation of open-system chemical dynamics"
     src="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/preview"
-    width="100%"
-    height="100%"
-    style="border:0;"
     allow="autoplay">
   </iframe>
 </div>
@@ -65,11 +98,10 @@ Rice News (including summary video) and Phys.org:
 
 Contributed talk at the 2025 QSim Conference in New York City on August 8, hosted by Institute for Robust Quantum Simulation (RQS).
 
-<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%; margin-top:1rem;">
+<div class="video-embed" markdown="0">
   <iframe
     src="https://www.youtube.com/embed/jxOFuNQV0l0"
     title="Quantum Simulation of Charge and Exciton Transfer in Multi-Mode Models using Engineered Reservoirs"
-    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
     allowfullscreen
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
   </iframe>
