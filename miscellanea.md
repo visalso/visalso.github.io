@@ -7,19 +7,17 @@ search_title: "Research Highlights"
 ---
 
 <style>
-  .pdf-embed {
+  .thesis-pdf-embed {
     width: 100%;
     height: 900px;
     margin: 1rem 0 2rem 0;
-    overflow: hidden;
   }
 
-  .pdf-embed iframe {
-    display: block;
+  .thesis-pdf-embed object {
     width: 100%;
     height: 100%;
     border: 0;
-    position: static;
+    display: block;
   }
 
   .video-embed {
@@ -51,12 +49,19 @@ Submitted the thesis to Rice University’s open-access repository on April 24, 
 
 The up-to-date version (April 26, 2026) can be read below or downloaded [here](https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link). The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
 
-<div class="pdf-embed" markdown="0">
-  <iframe
-    title="Trapped-ion quantum simulation of open-system chemical dynamics"
-    src="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/preview"
-    allow="autoplay">
-  </iframe>
+<div class="thesis-pdf-embed" markdown="0">
+  <object
+    data="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/preview"
+    type="text/html"
+    width="100%"
+    height="900">
+    <p>
+      The thesis preview could not be loaded.
+      <a href="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link">
+        Open it in Google Drive.
+      </a>
+    </p>
+  </object>
 </div>
 
 ## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
