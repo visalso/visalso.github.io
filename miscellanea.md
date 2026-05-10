@@ -47,6 +47,8 @@ Successfully defended the dissertation, titled <strong>"Trapped-ion quantum simu
 
 Submitted the thesis to Rice University’s open-access repository on April 24, 2026.
 
+This thesis was awarded the H. A. Wilson Research Award as the most outstanding Ph.D. thesis in the Department of Physics and Astronomy at Rice University for the 2025–2026 academic year.
+
 The up-to-date version (April 26, 2026) can be read below or downloaded [here](https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link). The primary change is an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Sec. 6.2.1.
 
 <div class="thesis-pdf-embed" markdown="0">
