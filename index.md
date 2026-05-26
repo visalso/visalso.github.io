@@ -15,9 +15,9 @@ search_title: "About Me"
 
     <div style="margin-top: 1rem; font-size: 0.9rem; line-height: 1.4;">
       <p>
-        <span style="white-space: nowrap;">Ph.D. in Physics, Rice University</span><br>
-        M.S. in Physics, Rice University<br>
-        B.S. in Physics, University of Oklahoma
+        <span style="white-space: nowrap;">Ph.D. Physics, Rice University</span><br>
+        M.S. Physics, Rice University<br>
+        B.S. Physics, University of Oklahoma
       </p>
   <!--
     <div style="margin-top: 1rem; font-size: 0.9rem; line-height: 1.4;">
