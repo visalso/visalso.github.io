@@ -12,13 +12,19 @@ search_title: "About Me"
     <img src="/assets/prof_pic.jpg"
          alt="Visal So"
          style="width: 100%; border-radius: 50%;">
-  
+
+    <div style="margin-top: 1rem; font-size: 0.9rem; line-height: 1.4;">
+      <p>
+        <span style="white-space: nowrap;">Ph.D. in Physics</span><br>
+      </p>
+  <!--
     <div style="margin-top: 1rem; font-size: 0.9rem; line-height: 1.4;">
       <p>
         <span style="white-space: nowrap;">Department of Physics &amp; Astronomy</span><br>
         Rice University<br>
         Houston, TX, USA
       </p>
+  -->
   
       <p style="margin: 0.6rem 0 0.2rem;"><strong>Contact</strong></p>
   
