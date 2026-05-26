@@ -39,6 +39,10 @@ search_title: "Research Highlights"
   }
 </style>
 
+## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
+
+Awarded a three-year fellowship to pursue experimental quantum information science research with individually controlled neutral atoms in the [Endres Lab](https://www.endreslab.com/).
+
 ## Doctorate completed at Rice University under the supervision of Prof. Guido Pagano -- Houston, Texas (2026)
 
 Successfully defended the dissertation, titled <strong>"Trapped-ion quantum simulation of open-system chemical dynamics,"</strong> on April 22, 2026.
@@ -65,10 +69,6 @@ The up-to-date version (April 26, 2026) can be read below or downloaded [here](h
     </p>
   </object>
 </div>
-
-## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
-
-Awarded a three-year fellowship to pursue experimental quantum information science research with individually controlled neutral atoms in the [Endres Lab](https://www.endreslab.com/).
 
 ## Recognition for work on quantum simulation of open-system chemical dynamics using trapped ions -- Munich, Germany (2025)
 
