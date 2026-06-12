@@ -7,7 +7,7 @@ search: true
 ## Peer-reviewed Manuscripts
 
 1. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
-   <u><strong>V. So</strong></u>, M. Duraisamy Suganthi, M. Zhu, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, P. G. Wolynes, J. N. Onuchic, and G. Pagano.    
+   <u><strong>V. So</strong></u> (Corresponding author), M. Duraisamy Suganthi, M. Zhu, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, P. G. Wolynes, J. N. Onuchic, and G. Pagano.    
    *Nature Communications* **17**, 438 (2026).  
    Featured in [**Ultrafast Chemistry**](https://www.nature.com/collections/egefhbgeba) collection.  
    [Journal link](https://www.nature.com/articles/s41467-025-67116-6)
@@ -41,7 +41,7 @@ search: true
    [arXiv link](https://arxiv.org/abs/2603.16048)
 
 2. **Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator.**  
-   <u><strong>V. So</strong></u>, M. Zhu, M. Duraisamy Suganthi, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, and G. Pagano.  
+   <u><strong>V. So</strong></u> (Corresponding author), M. Zhu, M. Duraisamy Suganthi, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, and G. Pagano.  
    arXiv:2511.08689 (2025).  
    [arXiv link](https://arxiv.org/abs/2511.08689)
 
