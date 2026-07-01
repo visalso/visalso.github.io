@@ -6,7 +6,12 @@ search: true
 
 ## Peer-reviewed Manuscripts
 
-1. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
+1. **Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator.**  
+   <u><strong>V. So</strong></u> (Corresponding author), M. Zhu, M. Duraisamy Suganthi, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, and G. Pagano.  
+   arXiv:2511.08689 (Accepted).  
+   [arXiv link](https://arxiv.org/abs/2511.08689)
+
+2. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
    <u><strong>V. So</strong></u> (Corresponding author), M. Duraisamy Suganthi, M. Zhu, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, P. G. Wolynes, J. N. Onuchic, and G. Pagano.    
    *Nature Communications* **17**, 438 (2026).  
    Featured in [**Ultrafast Chemistry**](https://www.nature.com/collections/egefhbgeba) collection.  
@@ -39,14 +44,12 @@ search: true
    A. Menon, M. Straus, G. Tomaras, L. Jeanette, A. X. Sheffield, D. Valdez, Y. Xie, <u><strong>V. So</strong></u>, H. D. Luo, M. Duraisamy Suganthi, M. Dugan, P. Bado, N. M. Linke, G. Pagano, and R. Zhuravel.  
    arXiv:2603.16048 (2026).  
    [arXiv link](https://arxiv.org/abs/2603.16048)
+   
 
-2. **Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator.**  
-   <u><strong>V. So</strong></u> (Corresponding author), M. Zhu, M. Duraisamy Suganthi, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, and G. Pagano.  
-   arXiv:2511.08689 (2025).  
-   [arXiv link](https://arxiv.org/abs/2511.08689)
+## Book chapters and proceedings
 
-3. **Fundamentals of trapped ions and quantum simulation of chemical dynamics.**  
+1. **Fundamentals of trapped ions and quantum simulation of chemical dynamics.**  
    G. Pagano, W. Adamczyk, and <u><strong>V. So</strong></u>.  
-   Submitted to appear in the Proceedings of the Course 214 “Quantum Computers and Simulators with Atoms” of the International School of Physics “Enrico Fermi” (Varenna, July 2024).  
+   Proceedings of the Course 214 “Quantum Computers and Simulators with Atoms” of the International School of Physics “Enrico Fermi” (Varenna, July 2024).  
    arXiv:2505.20412 (2025).  
    [arXiv link](https://arxiv.org/abs/2505.20412)
