@@ -8,7 +8,7 @@ search: true
 
 1. **Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator.**  
    <u><strong>V. So</strong></u> (Corresponding author), M. Zhu, M. Duraisamy Suganthi, A. Menon, G. Tomaras, R. Zhuravel, H. Pu, and G. Pagano.  
-   arXiv:2511.08689 (Accepted).  
+   arXiv:2511.08689 ([Accepted](https://journals.aps.org/prl/accepted/10.1103/mf8d-91ws)).  
    [arXiv link](https://arxiv.org/abs/2511.08689)
 
 2. **Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs.**  
