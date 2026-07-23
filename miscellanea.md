@@ -39,7 +39,7 @@ search_title: "Research Highlights"
   }
 </style>
 
-## IQIM Postdoctoral Fellowship at Caltech (July 2026 -- July 2029)
+## IQIM Postdoctoral Fellowship at Caltech (August 2026 -- August 2029)
 
 Awarded a three-year fellowship to pursue experimental quantum information science research with individually controlled neutral atoms in the [Endres Lab](https://www.endreslab.com/).
 
