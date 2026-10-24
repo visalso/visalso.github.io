@@ -8,7 +8,7 @@
 .publication-filter__dot--proceedings { background: var(--muted); }
 .publication-filter[aria-pressed="true"] .publication-filter__dot { background: currentColor; }
 .publication-empty { padding: 24px; margin-bottom: 24px; color: var(--muted); border: 1px solid var(--line); border-radius: 10px; }
-.paper--with-thumbnail { display: grid; grid-template-columns: 176px minmax(0, 1fr); gap: 22px; }
+.paper--with-thumbnail { display: grid; grid-template-columns: 352px minmax(0, 1fr); gap: 22px; }
 .paper__content { min-width: 0; }
 .paper__thumbnail { display: block; align-self: start; aspect-ratio: 4 / 3; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface-soft); }
 .paper__thumbnail img { width: 100%; height: 100%; object-fit: contain; }
