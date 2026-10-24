@@ -1,9 +1,10 @@
-# Keep the full bibliography here. The homepage uses selected: true.
-# selected_order controls only the order of homepage research cards.
+# The homepage uses selected: true and selected_order.
 - id: monolithic-ion-trap
-  title: Monolithic segmented three-dimensional ion trap for quantum technology applications
+  title: Monolithic segmented three-dimensional ion trap for quantum 
+    technology applications
   short_title: Building quantum hardware
-  summary: A monolithic, segmented three-dimensional ion trap for quantum technology applications.
+  summary: A monolithic, segmented three-dimensional ion trap for quantum 
+    technology applications.
   category: Quantum hardware
   authors:
     - A. Menon
@@ -24,18 +25,50 @@
   year: 2026
   venue: Physical Review Applied 26, 044037
   type: journal
-  selected: false
-  thumbnail: /assets/monolithictrap.jpeg
+  selected: true
+  selected_order: 3
   links:
     - label: Journal
       url: https://journals.aps.org/prapplied/abstract/10.1103/srq8-cgnt
     - label: arXiv
       url: https://arxiv.org/abs/2603.16048
 
+  abstract: >-
+    We develop and benchmark a segmented, monolithic three-dimensional Paul trap
+    fabricated in fused silica. The design aims to combine robust confinement and
+    low motional heating with strong optical access and the precision of microfabricated
+    structures. Characterization with ytterbium ions demonstrates uniform axial
+    trapping over a broad region, optical access approaching a numerical aperture
+    of 0.7, and a radial heating rate near 1.1 quanta per second at roughly 3 MHz.
+    Radial motional Ramsey coherence is approximately 95 ms. The trap also supports
+    preparation of a two-ion Bell state with high measured parity contrast, indicating
+    its potential for modular quantum-information experiments.
+  abstract_source: https://arxiv.org/abs/2603.16048
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{srq8-cgnt,
+      title = {Monolithic segmented three-dimensional ion trap for quantum technology applications},
+      author = {Menon, Abhishek and Straus, Michael and Tomaras, George and Jeanette, Liam and Sheffield, April X. and Valdez, Devon and Xie, Yuanheng and So, Visal and Luo, De and Duraisamy Suganthi, Midhuna and Dugan, Mark and Bado, Philippe and Linke, Norbert M. and Pagano, Guido and Zhuravel, Roman},
+      journal = {Phys. Rev. Appl.},
+      volume = {26},
+      issue = {4},
+      pages = {044037},
+      numpages = {26},
+      year = {2026},
+      month = {Oct},
+      publisher = {American Physical Society},
+      doi = {10.1103/srq8-cgnt},
+      url = {https://link.aps.org/doi/10.1103/srq8-cgnt}
+    }
+  bibtex_source: 
+    https://journals.aps.org/prapplied/export/10.1103/srq8-cgnt?download=true&type=bibtex
+  bibtex_status: publisher-export
 - id: thermal-reservoirs
-  title: Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator
+  title: Experimental realization of thermal reservoirs with tunable 
+    temperature in a trapped-ion spin-boson simulator
   short_title: Engineering thermal reservoirs
-  summary: Bringing tunable temperature to a trapped-ion spin-boson simulator through engineered reservoirs.
+  summary: Bringing tunable temperature to a trapped-ion spin-boson simulator 
+    through engineered reservoirs.
   category: Quantum control
   authors:
     - V. So
@@ -51,18 +84,50 @@
   venue: Physical Review Letters 137, 050604
   type: journal
   selected: true
-  selected_order: 2
+  selected_order: 1
   links:
     - label: Journal
       url: https://journals.aps.org/prl/abstract/10.1103/mf8d-91ws
     - label: arXiv
       url: https://arxiv.org/abs/2511.08689
 
+  abstract: >-
+    We demonstrate a way to engineer thermal environments for the vibrational modes
+    of trapped ions while varying bath temperature and damping strength independently.
+    The technique prepares bosonic thermal states and enables controlled studies
+    of dissipative spin-boson dynamics at finite temperature. In an electron-transfer
+    model, we observe how increasing the bath temperature broadens the transfer-rate
+    spectrum, suppressing transfer near small energy offsets while promoting it
+    at larger gaps. We then extend the approach to exciton transport assisted by
+    two vibrational modes and identify additional transfer pathways activated by
+    temperature and interference.
+  abstract_source: https://arxiv.org/abs/2511.08689
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{mf8d-91ws,
+      title = {Experimental Realization of Thermal Reservoirs with Tunable Temperature in a Trapped-Ion Spin-Boson Simulator},
+      author = {So, Visal and Zhu, Mingjian and Duraisamy Suganthi, Midhuna and Menon, Abhishek and Tomaras, George and Zhuravel, Roman and Pu, Han and Pagano, Guido},
+      journal = {Phys. Rev. Lett.},
+      volume = {137},
+      issue = {5},
+      pages = {050604},
+      numpages = {10},
+      year = {2026},
+      month = {Jul},
+      publisher = {American Physical Society},
+      doi = {10.1103/mf8d-91ws},
+      url = {https://link.aps.org/doi/10.1103/mf8d-91ws}
+    }
+  bibtex_source: 
+    https://journals.aps.org/prl/export/10.1103/mf8d-91ws?download=true&type=bibtex
+  bibtex_status: publisher-export
 - id: charge-exciton-transfer
-  title: Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs
+  title: Quantum simulation of charge and exciton transfer in multi-mode 
+    models using engineered reservoirs
   short_title: Simulating chemical dynamics
-  summary: Exploring charge and exciton transfer with multi-mode models and engineered reservoirs.
-  category: Quantum simulation
+  summary: Exploring charge and exciton transfer with multi-mode models and 
+    engineered reservoirs.
+  category: Chemical dynamics
   authors:
     - V. So
     - M. Duraisamy Suganthi
@@ -79,7 +144,7 @@
   venue: Nature Communications 17, 438
   type: journal
   selected: true
-  selected_order: 3
+  selected_order: 2
   note: Featured in the Ultrafast Chemistry collection
   note_url: https://www.nature.com/collections/egefhbgeba
   links:
@@ -88,10 +153,38 @@
     - label: arXiv
       url: https://arxiv.org/abs/2505.22729
 
+  abstract: >-
+    We experimentally simulate molecular charge and exciton transfer using a trapped-ion
+    realization of a two-mode linear vibronic-coupling model. Controllable spin-phonon
+    interactions represent electronic and vibrational degrees of freedom, while
+    engineered reservoirs supply dissipation for both vibrational modes. By tuning
+    the coupling strengths, the simulator crosses between charge-transfer and vibrationally
+    assisted exciton-transfer regimes. Degenerate vibrational modes can enhance
+    transfer at large energy differences, whereas nondegenerate modes enable additional
+    slower pathways that change the dependence on the donor-acceptor energy gap.
+    These results illustrate how even one extra vibration modifies interference
+    among transport channels in an open quantum system.
+  abstract_source: https://arxiv.org/abs/2505.22729
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{So2026Multimode,
+      author = {So, Visal and Duraisamy Suganthi, Midhuna and Zhu, Mingjian and Menon, Abhishek and Tomaras, George and Zhuravel, Roman and Pu, Han and Wolynes, Peter G. and Onuchic, José N. and Pagano, Guido},
+      title = {Quantum simulation of charge and exciton transfer in multi-mode models using engineered reservoirs},
+      journal = {Nature Communications},
+      volume = {17},
+      pages = {438},
+      year = {2026},
+      doi = {10.1038/s41467-025-67116-6},
+      url = {https://doi.org/10.1038/s41467-025-67116-6}
+    }
+  bibtex_source: https://www.nature.com/articles/s41467-025-67116-6
+  bibtex_status: reconstructed-from-official-metadata
 - id: ytterbium-spectroscopy
-  title: Precision measurement of lifetime and branching ratios of 4f¹³5d6s ¹[5/2]₅/₂ state in Yb⁺ ions
+  title: Precision measurement of lifetime and branching ratios of 4f¹³5d6s 
+    ¹[5/2]₅/₂ state in Yb⁺ ions
   short_title: Precision spectroscopy of Yb⁺ ions
-  summary: Measuring the lifetime and branching ratios of an excited state in singly ionized ytterbium.
+  summary: Measuring the lifetime and branching ratios of an excited state in 
+    singly ionized ytterbium.
   category: Precision spectroscopy
   authors:
     - M. Duraisamy Suganthi
@@ -110,11 +203,43 @@
     - label: arXiv
       url: https://arxiv.org/abs/2506.04320
 
+  abstract: >-
+    We use precision spectroscopy and time-resolved measurements to characterize
+    a high-lying excited state of singly ionized ytterbium-172. Excitation from
+    metastable states reveals an unexpectedly long lifetime of 37.9(9) microseconds,
+    sufficient to resolve coherent Rabi oscillations and motional sidebands. Combining
+    coherent population control, state-selective detection, heralding, and optical
+    pumping, we determine the decay fractions to three lower states and constrain
+    additional decay channels. We also measure a Landé g-factor and improve the
+    precision of a related metastable-state branching ratio. The results supply
+    spectroscopic benchmarks relevant to ytterbium-based quantum-control protocols.
+  abstract_source: https://arxiv.org/abs/2506.04320
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{mwwc-kng1,
+      title = {Precision measurement of lifetime and branching ratios of the $4{f}^{13}5d6{s}^{1}{[5/2]}_{5/2}$ state in ${\mathrm{Yb}}^{+}$ ions},
+      author = {Duraisamy Suganthi, Midhuna and So, Visal and Menon, Abhishek and Tomaras, George and Zhuravel, Roman and Pagano, Guido},
+      journal = {Phys. Rev. Res.},
+      volume = {7},
+      issue = {4},
+      pages = {043242},
+      numpages = {8},
+      year = {2025},
+      month = {Dec},
+      publisher = {American Physical Society},
+      doi = {10.1103/mwwc-kng1},
+      url = {https://link.aps.org/doi/10.1103/mwwc-kng1}
+    }
+  bibtex_source: 
+    https://journals.aps.org/prresearch/export/10.1103/mwwc-kng1?download=true&type=bibtex
+  bibtex_status: publisher-export
 - id: delocalized-excitation-transfer
-  title: Delocalized excitation transfer in open quantum systems with long-range interactions
+  title: Delocalized excitation transfer in open quantum systems with 
+    long-range interactions
   short_title: Delocalized excitation transfer
-  summary: Studying excitation transfer in open quantum systems with long-range interactions.
-  category: Quantum simulation
+  summary: Studying excitation transfer in open quantum systems with 
+    long-range interactions.
+  category: Open quantum systems
   authors:
     - D. F. Padilla
     - V. So
@@ -132,11 +257,43 @@
     - label: arXiv
       url: https://arxiv.org/abs/2502.04383
 
+  abstract: >-
+    We study energy-transfer processes in an open quantum system whose excitations
+    can spread over several interacting sites. A long-range Frenkel-exciton model
+    is coupled to a damped collective vibrational mode to represent donor and acceptor
+    structures analogous to molecular light-harvesting systems. Certain delocalized
+    excitonic states yield particularly high transport rates while retaining entanglement
+    during dissipative transfer. The analysis explores the effects of static disorder,
+    noise, temperature, and the number and arrangement of molecular subunits. A
+    proposed trapped-ion realization provides a path to testing these transport
+    mechanisms in parameter regimes that are difficult to model classically.
+  abstract_source: https://arxiv.org/abs/2502.04383
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{bxwl-sbsn,
+      title = {Delocalized Excitation Transfer in Open Quantum Systems with Long-Range Interactions},
+      author = {Fallas Padilla, Diego and So, Visal and Menon, Abhishek and Zhuravel, Roman and Pu, Han and Pagano, Guido},
+      journal = {PRX Quantum},
+      volume = {6},
+      issue = {4},
+      pages = {040301},
+      numpages = {26},
+      year = {2025},
+      month = {Oct},
+      publisher = {American Physical Society},
+      doi = {10.1103/bxwl-sbsn},
+      url = {https://link.aps.org/doi/10.1103/bxwl-sbsn}
+    }
+  bibtex_source: 
+    https://journals.aps.org/prxquantum/export/10.1103/bxwl-sbsn?download=true&type=bibtex
+  bibtex_status: publisher-export
 - id: dissipation-entanglement
-  title: Dissipation-assisted steady-state entanglement engineering based on electron transfer models
+  title: Dissipation-assisted steady-state entanglement engineering based on 
+    electron transfer models
   short_title: Dissipation-assisted entanglement
-  summary: Exploring steady-state entanglement engineering through electron transfer models and dissipation.
-  category: Quantum control
+  summary: Exploring steady-state entanglement engineering through electron 
+    transfer models and dissipation.
+  category: Open quantum systems
   authors:
     - M. Zhu
     - V. So
@@ -152,11 +309,43 @@
     - label: arXiv
       url: https://arxiv.org/abs/2504.02101
 
+  abstract: >-
+    We propose dissipative control protocols in trapped-ion simulators that use
+    electron-transfer-inspired spin-boson interactions to stabilize entangled states.
+    Controlled phonon displacements and sympathetic-cooling-induced damping let
+    a target system relax toward engineered spin and boson steady states. Analytical
+    arguments clarify the underlying dynamics, and realistic parameter choices support
+    protocols for multipartite W states of qubits or bosonic modes. The approach
+    also extends to Dicke states with adjustable excitation number. We discuss how
+    experimental imperfections and noise could affect an implementation in current
+    ion-trap platforms.
+  abstract_source: https://arxiv.org/abs/2504.02101
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{9sr4-3jz2,
+      title = {Dissipation-assisted steady-state entanglement engineering based on electron transfer models},
+      author = {Zhu, Mingjian and So, Visal and Pagano, Guido and Pu, Han},
+      journal = {Phys. Rev. A},
+      volume = {112},
+      issue = {1},
+      pages = {012617},
+      numpages = {16},
+      year = {2025},
+      month = {Jul},
+      publisher = {American Physical Society},
+      doi = {10.1103/9sr4-3jz2},
+      url = {https://link.aps.org/doi/10.1103/9sr4-3jz2}
+    }
+  bibtex_source: 
+    https://journals.aps.org/pra/export/10.1103/9sr4-3jz2?download=true&type=bibtex
+  bibtex_status: publisher-export
 - id: electron-transfer
-  title: Trapped-ion quantum simulation of electron transfer models with tunable dissipation
+  title: Trapped-ion quantum simulation of electron transfer models with 
+    tunable dissipation
   short_title: Electron transfer with tunable dissipation
-  summary: Using trapped ions to investigate electron transfer models with engineered dissipation.
-  category: Quantum simulation
+  summary: Using trapped ions to investigate electron transfer models with 
+    engineered dissipation.
+  category: Chemical dynamics
   authors:
     - V. So
     - M. Duraisamy Suganthi
@@ -170,16 +359,41 @@
   year: 2024
   venue: Science Advances 10, eads8011
   type: journal
-  selected: true
-  selected_order: 1
+  selected: false
   links:
     - label: Journal
       url: https://www.science.org/doi/10.1126/sciadv.ads8011
     - label: arXiv
       url: https://arxiv.org/abs/2405.10368
 
+  abstract: >-
+    We realize a controllable model of molecular electron transfer with a crystal
+    containing two ionic species. One set of ion states represents donor and acceptor
+    electronic configurations, collective vibrations represent molecular motion,
+    and sympathetic cooling creates an adjustable dissipative environment. The experiment
+    independently varies energy offsets, vibronic interactions, electronic coupling,
+    and relaxation strength. By tracking the electronic population over time, we
+    measure transfer dynamics and reaction rates in several regimes, providing a
+    test platform for quantum models of energy conversion and excitation transport
+    relevant to molecular and light-harvesting materials.
+  abstract_source: https://arxiv.org/abs/2405.10368
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @article{So2024ElectronTransfer,
+      author = {So, Visal and Duraisamy Suganthi, Midhuna and Menon, Abhishek and Zhu, Mingjian and Zhuravel, Roman and Pu, Han and Wolynes, Peter G. and Onuchic, José N. and Pagano, Guido},
+      title = {Trapped-ion quantum simulation of electron transfer models with tunable dissipation},
+      journal = {Science Advances},
+      volume = {10},
+      pages = {eads8011},
+      year = {2024},
+      doi = {10.1126/sciadv.ads8011},
+      url = {https://doi.org/10.1126/sciadv.ads8011}
+    }
+  bibtex_source: https://www.science.org/doi/10.1126/sciadv.ads8011
+  bibtex_status: reconstructed-from-official-metadata
 - id: programmable-polarons
-  title: Programmable polaron models and tomography in trapped-ion quantum simulators
+  title: Programmable polaron models and tomography in trapped-ion quantum 
+    simulators
   short_title: Programmable polaron models
   summary: Polaron models and tomography in a trapped-ion quantum simulator.
   category: Quantum simulation
@@ -198,16 +412,42 @@
     - label: arXiv
       url: https://arxiv.org/abs/2610.18970
 
+  abstract: >-
+    We present a blueprint for simulating polarons, excitations dressed by lattice
+    vibrations, in a programmable trapped-ion device. Spin-phonon interactions can
+    reproduce both short-range Holstein-type and longer-range Fröhlich-type couplings.
+    To identify strongly dressed quasiparticles, the proposed measurements use displaced
+    Green functions to extract energy bands, binding effects, and vibrational sidebands.
+    Spatial measurements and ancilla-assisted correlation probes then reveal how
+    phonon dressing builds around an excitation and evolves in time. The proposal
+    connects quasiparticle spectra to their microscopic spatial structure across
+    different interaction ranges.
+  abstract_source: https://arxiv.org/abs/2610.18970
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @misc{Marijanovic2026Polaron,
+      author = {Marijanovic, Filip and Bhattacharya, Utso and Menon, Abhishek and So, Visal and Pagano, Guido and Demler, Eugene},
+      title = {Programmable Polaron Models and Tomography in Trapped-Ion Quantum Simulators},
+      year = {2026},
+      eprint = {2610.18970},
+      archivePrefix = {arXiv},
+      primaryClass = {quant-ph},
+      url = {https://arxiv.org/abs/2610.18970}
+    }
+  bibtex_source: https://arxiv.org/abs/2610.18970
+  bibtex_status: reconstructed-from-official-metadata
 - id: correlated-pair-creation
-  title: Correlated pair creation with positive- and negative-frequency oscillators in a trapped-ion quantum simulator
+  title: Correlated pair creation with positive- and negative-frequency 
+    oscillators in a trapped-ion quantum simulator
   short_title: Correlated pair creation
-  summary: Investigating correlated pair creation with positive- and negative-frequency oscillators.
+  summary: Investigating correlated pair creation with positive- and 
+    negative-frequency oscillators.
   category: Quantum simulation
   authors:
     - V. So
     - M. Zhu
-    - G. Pagano
     - H. Pu
+    - G. Pagano
   year: 2026
   venue: arXiv:2610.12579
   type: preprint
@@ -216,20 +456,73 @@
     - label: arXiv
       url: https://arxiv.org/abs/2610.12579
 
+  abstract: >-
+    We investigate how reversing the effective frequency sign of one motional mode
+    changes the dynamics of a two-mode spin-boson simulator. With frequencies of
+    equal sign, resonant processes exchange excitations between modes; opposite
+    signs instead favor the correlated generation of pairs. In a dispersive regime,
+    this becomes a two-mode parametric-amplification problem with oscillatory, critical,
+    and unstable amplification regions. The resulting evolution produces quadrature
+    squeezing and motional entanglement. Coherent preparation and postselection
+    of the spin can additionally yield multipartite entanglement and non-Gaussian
+    bosonic states, using parameters compatible with trapped-ion experiments.
+  abstract_source: https://arxiv.org/abs/2610.12579
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @misc{So2026CorrelatedPairCreation,
+      author = {So, Visal and Zhu, Mingjian and Pu, Han and Pagano, Guido},
+      title = {Correlated Pair Creation with Positive- and Negative-Frequency Oscillators in a Trapped-Ion Quantum Simulator},
+      year = {2026},
+      eprint = {2610.12579},
+      archivePrefix = {arXiv},
+      primaryClass = {quant-ph},
+      url = {https://arxiv.org/abs/2610.12579}
+    }
+  bibtex_source: https://arxiv.org/abs/2610.12579
+  bibtex_status: reconstructed-from-official-metadata
 - id: trapped-ion-fundamentals
-  title: Fundamentals of trapped ions and quantum simulation of chemical dynamics
+  title: Fundamentals of trapped ions and quantum simulation of chemical 
+    dynamics
   short_title: Fundamentals of trapped-ion simulation
-  summary: An introduction to trapped ions and their use in simulating chemical dynamics.
+  summary: An introduction to trapped ions and their use in simulating 
+    chemical dynamics.
   category: Book chapters and proceedings
   authors:
     - G. Pagano
     - W. Adamczyk
     - V. So
   year: 2025
-  venue: Proceedings of the International School of Physics “Enrico Fermi”, Course 214
+  venue: Proceedings of the International School of Physics “Enrico Fermi”, 
+    Course 214
   type: proceedings
   selected: false
-  note: “Quantum Computers and Simulators with Atoms” · Varenna, July 2024 · arXiv:2505.20412
+  note: “Quantum Computers and Simulators with Atoms” · Varenna, July 2024 · 
+    arXiv:2505.20412
   links:
     - label: arXiv
       url: https://arxiv.org/abs/2505.20412
+  abstract: >-
+    This pedagogical review introduces trapped-ion quantum technology, beginning
+    with confinement in radio-frequency traps, qubit encodings, and coherent laser-ion
+    interactions. It describes how spin-dependent optical forces enable high-quality
+    quantum gates and analog or digital simulations of interacting spins and coupled
+    spin-boson systems. The discussion then turns to chemical dynamics, explaining
+    how vibrational and electronic degrees of freedom can be emulated with trapped
+    ions to explore excitation and charge transfer. The authors conclude with research
+    directions and engineering challenges for larger, more capable ion-based quantum
+    simulators.
+  abstract_source: https://arxiv.org/abs/2505.20412
+  abstract_status: paraphrase-of-public-abstract
+  bibtex: |
+    @misc{Pagano2025TrappedIonFundamentals,
+      author = {Pagano, Guido and Adamczyk, Wojciech and So, Visal},
+      title = {Fundamentals of Trapped Ions and Quantum Simulation of Chemical Dynamics},
+      year = {2025},
+      eprint = {2505.20412},
+      archivePrefix = {arXiv},
+      primaryClass = {quant-ph},
+      note = {Submitted for the Proceedings of the International School of Physics Enrico Fermi, Course 214},
+      url = {https://arxiv.org/abs/2505.20412}
+    }
+  bibtex_source: https://arxiv.org/abs/2505.20412
+  bibtex_status: reconstructed-from-official-metadata
