@@ -26,6 +26,7 @@
   venue: Physical Review Applied 26, 044037
   type: journal
   selected: false
+  thumbnail: /assets/monolithictrap.jpeg
   links:
     - label: Journal
       url: https://journals.aps.org/prapplied/abstract/10.1103/srq8-cgnt
