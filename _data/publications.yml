@@ -1,0 +1,234 @@
+# Keep the full bibliography here. The homepage uses selected: true.
+# selected_order controls only the order of homepage research cards.
+- id: monolithic-ion-trap
+  title: Monolithic segmented three-dimensional ion trap for quantum technology applications
+  short_title: Building quantum hardware
+  summary: A monolithic, segmented three-dimensional ion trap for quantum technology applications.
+  category: Quantum hardware
+  authors:
+    - A. Menon
+    - M. Straus
+    - G. Tomaras
+    - L. Jeanette
+    - A. X. Sheffield
+    - D. Valdez
+    - Y. Xie
+    - V. So
+    - D. Luo
+    - M. Duraisamy Suganthi
+    - M. Dugan
+    - P. Bado
+    - N. M. Linke
+    - G. Pagano
+    - R. Zhuravel
+  year: 2026
+  venue: Physical Review Applied 26, 044037
+  type: journal
+  selected: true
+  selected_order: 3
+  links:
+    - label: Journal
+      url: https://journals.aps.org/prapplied/abstract/10.1103/srq8-cgnt
+    - label: arXiv
+      url: https://arxiv.org/abs/2603.16048
+
+- id: thermal-reservoirs
+  title: Experimental realization of thermal reservoirs with tunable temperature in a trapped-ion spin-boson simulator
+  short_title: Engineering thermal reservoirs
+  summary: Bringing tunable temperature to a trapped-ion spin-boson simulator through engineered reservoirs.
+  category: Quantum control
+  authors:
+    - V. So
+    - M. Zhu
+    - M. Duraisamy Suganthi
+    - A. Menon
+    - G. Tomaras
+    - R. Zhuravel
+    - H. Pu
+    - G. Pagano
+  corresponding_author: V. So
+  year: 2026
+  venue: Physical Review Letters 137, 050604
+  type: journal
+  selected: true
+  selected_order: 1
+  links:
+    - label: Journal
+      url: https://journals.aps.org/prl/abstract/10.1103/mf8d-91ws
+    - label: arXiv
+      url: https://arxiv.org/abs/2511.08689
+
+- id: charge-exciton-transfer
+  title: Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs
+  short_title: Simulating chemical dynamics
+  summary: Exploring charge and exciton transfer with multi-mode models and engineered reservoirs.
+  category: Chemical dynamics
+  authors:
+    - V. So
+    - M. Duraisamy Suganthi
+    - M. Zhu
+    - A. Menon
+    - G. Tomaras
+    - R. Zhuravel
+    - H. Pu
+    - P. G. Wolynes
+    - J. N. Onuchic
+    - G. Pagano
+  corresponding_author: V. So
+  year: 2026
+  venue: Nature Communications 17, 438
+  type: journal
+  selected: true
+  selected_order: 2
+  note: Featured in the Ultrafast Chemistry collection
+  note_url: https://www.nature.com/collections/egefhbgeba
+  links:
+    - label: Journal
+      url: https://www.nature.com/articles/s41467-025-67116-6
+    - label: arXiv
+      url: https://arxiv.org/abs/2505.22729
+
+- id: ytterbium-spectroscopy
+  title: Precision measurement of lifetime and branching ratios of 4f¹³5d6s ¹[5/2]₅/₂ state in Yb⁺ ions
+  short_title: Precision spectroscopy of Yb⁺ ions
+  summary: Measuring the lifetime and branching ratios of an excited state in singly ionized ytterbium.
+  category: Precision spectroscopy
+  authors:
+    - M. Duraisamy Suganthi
+    - V. So
+    - A. Menon
+    - G. Tomaras
+    - R. Zhuravel
+    - G. Pagano
+  year: 2025
+  venue: Physical Review Research 7, 043242
+  type: journal
+  selected: false
+  links:
+    - label: Journal
+      url: https://journals.aps.org/prresearch/abstract/10.1103/mwwc-kng1
+    - label: arXiv
+      url: https://arxiv.org/abs/2506.04320
+
+- id: delocalized-excitation-transfer
+  title: Delocalized excitation transfer in open quantum systems with long-range interactions
+  short_title: Delocalized excitation transfer
+  summary: Studying excitation transfer in open quantum systems with long-range interactions.
+  category: Open quantum systems
+  authors:
+    - D. F. Padilla
+    - V. So
+    - A. Menon
+    - R. Zhuravel
+    - H. Pu
+    - G. Pagano
+  year: 2025
+  venue: PRX Quantum 6, 040301
+  type: journal
+  selected: false
+  links:
+    - label: Journal
+      url: https://journals.aps.org/prxquantum/abstract/10.1103/bxwl-sbsn
+    - label: arXiv
+      url: https://arxiv.org/abs/2502.04383
+
+- id: dissipation-entanglement
+  title: Dissipation-assisted steady-state entanglement engineering based on electron transfer models
+  short_title: Dissipation-assisted entanglement
+  summary: Exploring steady-state entanglement engineering through electron transfer models and dissipation.
+  category: Open quantum systems
+  authors:
+    - M. Zhu
+    - V. So
+    - G. Pagano
+    - H. Pu
+  year: 2025
+  venue: Physical Review A 112, 012617
+  type: journal
+  selected: false
+  links:
+    - label: Journal
+      url: https://journals.aps.org/pra/abstract/10.1103/9sr4-3jz2
+    - label: arXiv
+      url: https://arxiv.org/abs/2504.02101
+
+- id: electron-transfer
+  title: Trapped-ion quantum simulation of electron transfer models with tunable dissipation
+  short_title: Electron transfer with tunable dissipation
+  summary: Using trapped ions to investigate electron transfer models with engineered dissipation.
+  category: Chemical dynamics
+  authors:
+    - V. So
+    - M. Duraisamy Suganthi
+    - A. Menon
+    - M. Zhu
+    - R. Zhuravel
+    - H. Pu
+    - P. G. Wolynes
+    - J. N. Onuchic
+    - G. Pagano
+  year: 2024
+  venue: Science Advances 10, eads8011
+  type: journal
+  selected: false
+  links:
+    - label: Journal
+      url: https://www.science.org/doi/10.1126/sciadv.ads8011
+    - label: arXiv
+      url: https://arxiv.org/abs/2405.10368
+
+- id: programmable-polarons
+  title: Programmable polaron models and tomography in trapped-ion quantum simulators
+  short_title: Programmable polaron models
+  summary: Polaron models and tomography in a trapped-ion quantum simulator.
+  category: Quantum simulation
+  authors:
+    - F. Marijanovic
+    - U. Bhattacharya
+    - A. Menon
+    - V. So
+    - G. Pagano
+    - E. Demler
+  year: 2026
+  venue: arXiv:2610.18970
+  type: preprint
+  selected: false
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2610.18970
+
+- id: correlated-pair-creation
+  title: Correlated pair creation with positive- and negative-frequency oscillators in a trapped-ion quantum simulator
+  short_title: Correlated pair creation
+  summary: Investigating correlated pair creation with positive- and negative-frequency oscillators.
+  category: Quantum simulation
+  authors:
+    - V. So
+    - M. Zhu
+    - G. Pagano
+    - H. Pu
+  year: 2026
+  venue: arXiv:2610.12579
+  type: preprint
+  selected: false
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2610.12579
+
+- id: trapped-ion-fundamentals
+  title: Fundamentals of trapped ions and quantum simulation of chemical dynamics
+  short_title: Fundamentals of trapped-ion simulation
+  summary: An introduction to trapped ions and their use in simulating chemical dynamics.
+  category: Book chapters and proceedings
+  authors:
+    - G. Pagano
+    - W. Adamczyk
+    - V. So
+  year: 2025
+  venue: Proceedings of the International School of Physics “Enrico Fermi”, Course 214
+  type: proceedings
+  selected: false
+  note: “Quantum Computers and Simulators with Atoms” · Varenna, July 2024 · arXiv:2505.20412
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2505.20412
