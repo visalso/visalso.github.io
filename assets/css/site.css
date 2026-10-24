@@ -246,7 +246,7 @@ strong { font-weight: 650; }
 .hero .button--primary { background: var(--cyan); color: var(--hero); }
 .hero .button--secondary { border-color: var(--hero-line); color: var(--hero-text); }
 .hero .button--secondary:hover { background: var(--hero-surface); }
-.profile { border: 1px solid var(--hero-line); border-radius: var(--radius); background: var(--hero-surface); overflow: hidden; }
+.profile { border: 1px solid var(--hero-line); border-radius: var(--radius); background: var(--hero-surface); overflow: hidden; align-self: start; }
 .profile__photo { width: 100%; aspect-ratio: 1 / 1.04; object-fit: cover; }
 .profile__body { padding: 20px 22px; }
 .profile__caption { color: var(--hero-muted); font-size: .75rem; }
