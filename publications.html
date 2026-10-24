@@ -28,7 +28,7 @@ nav: publications
   <section class="section publication-year" aria-labelledby="year-{{ year.name }}" data-publication-year>
     <div class="section-heading"><h2 id="year-{{ year.name }}">{{ year.name }}</h2></div>
     <div class="paper-list">
-      {% for paper in year.items %}{% include publication-row.html paper=paper %}{% endfor %}
+      {% assign sorted_papers = year.items | sort: 'sort_date' | reverse %}{% for paper in sorted_papers %}{% include publication-row.html paper=paper %}{% endfor %}
     </div>
   </section>
   {% endfor %}
