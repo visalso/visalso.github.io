@@ -23,6 +23,7 @@
     - G. Pagano
     - R. Zhuravel
   year: 2026
+  sort_date: "2026-10-13"
   venue: Physical Review Applied 26, 044037
   type: journal
   selected: false
@@ -89,6 +90,7 @@
     - G. Pagano
   corresponding_author: V. So
   year: 2026
+  sort_date: "2026-07-30"
   venue: Physical Review Letters 137, 050604
   type: journal
   thumbnail: /assets/PRL_finitetemp.png
@@ -151,6 +153,7 @@
     - G. Pagano
   corresponding_author: V. So
   year: 2026
+  sort_date: "2025-12-05"
   venue: Nature Communications 17, 438
   type: journal
   selected: true
@@ -211,6 +214,7 @@
     - R. Zhuravel
     - G. Pagano
   year: 2025
+  sort_date: "2025-12-02"
   venue: Physical Review Research 7, 043242
   type: journal
   selected: false
@@ -270,6 +274,7 @@
     - H. Pu
     - G. Pagano
   year: 2025
+  sort_date: "2025-10-01"
   venue: PRX Quantum 6, 040301
   type: journal
   selected: false
@@ -329,6 +334,7 @@
     - G. Pagano
     - H. Pu
   year: 2025
+  sort_date: "2025-07-21"
   venue: Physical Review A 112, 012617
   type: journal
   selected: false
@@ -389,6 +395,7 @@
     - J. N. Onuchic
     - G. Pagano
   year: 2024
+  sort_date: "2024-12-20"
   venue: Science Advances 10, eads8011
   type: journal
   selected: true
@@ -439,6 +446,7 @@
     - G. Pagano
     - E. Demler
   year: 2026
+  sort_date: "2026-10-13"
   venue: arXiv:2610.18970
   type: preprint
   selected: false
@@ -493,6 +501,7 @@
     - H. Pu
     - G. Pagano
   year: 2026
+  sort_date: "2026-10-08"
   venue: arXiv:2610.12579
   type: preprint
   selected: false
@@ -540,6 +549,7 @@
     - W. Adamczyk
     - V. So
   year: 2025
+  sort_date: "2025-05-26"
   venue: Proceedings of the International School of Physics “Enrico Fermi”, Course 214
   type: proceedings
   selected: false
