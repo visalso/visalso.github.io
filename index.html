@@ -18,10 +18,60 @@ home: true
         <p>I received my Ph.D. in Physics from Rice University under the advisement of Prof. Guido Pagano (<a href="https://paganolab.rice.edu/" target="_blank" rel="noopener noreferrer">Quantum Simulation Lab</a>), working on quantum simulation with trapped-ion quantum technologies. My dissertation focuses on experimental realizations of open-system dynamics in chemically motivated models with engineered coherent and dissipative interactions, at the interface of quantum information, AMO physics, condensed-matter physics, and chemical physics.</p>
         <p>My research goal is to advance the frontier of quantum science by developing hardware-efficient tools and protocols from the ground up, adding one crucial ingredient at a time, to enable the exploration of regimes inaccessible to classical methods. This integrated strategy is key to realizing the full potential of quantum technologies, both for deepening our understanding of the fundamental laws of nature and for delivering practical benefits.</p>
       </div>
-      <div class="actions hero__actions">
-        <a class="button button--primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
-        <a class="button button--secondary" href="{{ '/CV/' | relative_url }}">View CV</a>
-      </div>
+<div class="actions hero__actions">
+  <a class="button button--primary"
+     href="{{ '/research/' | relative_url }}">
+    Explore my research <span aria-hidden="true">↗</span>
+  </a>
+</div>
+
+    <section class="download-grid" aria-label="CV and résumé downloads">
+    
+      <article class="download-card">
+        <p class="section-kicker">Academic record</p>
+        <h2>Full CV</h2>
+    
+        <p>
+          Research, education, publications, teaching, and professional experience.
+        </p>
+    
+        <p class="muted">
+          PDF updated
+          <time datetime="{{ site.cv_updated | date: '%Y-%m-%d' }}">
+            {{ site.cv_updated | date: '%B %-d, %Y' }}
+          </time>.
+        </p>
+    
+        <a class="button button--primary"
+           href="{{ '/cv_web.pdf' | relative_url }}"
+           download>
+          Download CV (PDF) <span aria-hidden="true">↓</span>
+        </a>
+      </article>
+    
+      <article class="download-card">
+        <p class="section-kicker">At a glance</p>
+        <h2>One-page résumé</h2>
+    
+        <p>
+          A compact overview of experience, selected work, and recognition.
+        </p>
+    
+        <p class="muted">
+          PDF updated
+          <time datetime="{{ site.cv_updated | date: '%Y-%m-%d' }}">
+            {{ site.cv_updated | date: '%B %-d, %Y' }}
+          </time>.
+        </p>
+    
+        <a class="button button--secondary"
+           href="{{ '/resume_web.pdf' | relative_url }}"
+           download>
+          Download résumé (PDF) <span aria-hidden="true">↓</span>
+        </a>
+      </article>
+    
+    </section>
     </div>
     <aside class="profile" aria-label="Profile and contact">
       <img class="profile__photo" src="{{ site.portrait | relative_url }}" alt="Visal So in a laboratory with experimental equipment behind him" width="775" height="775" fetchpriority="high">
