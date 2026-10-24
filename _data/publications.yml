@@ -61,7 +61,7 @@
   title: Quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs
   short_title: Simulating chemical dynamics
   summary: Exploring charge and exciton transfer with multi-mode models and engineered reservoirs.
-  category: Chemical dynamics
+  category: Quantum simulation
   authors:
     - V. So
     - M. Duraisamy Suganthi
@@ -113,7 +113,7 @@
   title: Delocalized excitation transfer in open quantum systems with long-range interactions
   short_title: Delocalized excitation transfer
   summary: Studying excitation transfer in open quantum systems with long-range interactions.
-  category: Open quantum systems
+  category: Quantum simulation
   authors:
     - D. F. Padilla
     - V. So
@@ -135,7 +135,7 @@
   title: Dissipation-assisted steady-state entanglement engineering based on electron transfer models
   short_title: Dissipation-assisted entanglement
   summary: Exploring steady-state entanglement engineering through electron transfer models and dissipation.
-  category: Open quantum systems
+  category: Quantum control
   authors:
     - M. Zhu
     - V. So
@@ -155,7 +155,7 @@
   title: Trapped-ion quantum simulation of electron transfer models with tunable dissipation
   short_title: Electron transfer with tunable dissipation
   summary: Using trapped ions to investigate electron transfer models with engineered dissipation.
-  category: Chemical dynamics
+  category: Quantum simulation
   authors:
     - V. So
     - M. Duraisamy Suganthi
