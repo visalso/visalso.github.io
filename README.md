@@ -1,4 +1,6 @@
-# Visal So — Personal academic website built with Jekyll and published through GitHub Actions, using ChatGPT's assistance.
+# Personal website
+
+Visal's personal academic website built with Jekyll and published through GitHub Actions, using ChatGPT's assistance.
 
 ## Where to edit
 
