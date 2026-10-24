@@ -10,5 +10,18 @@
       {% for link in paper.links %}<a class="text-link" href="{{ link.url | escape }}">{{ link.label | escape }}<span aria-hidden="true"> ↗</span></a>{% endfor %}
     </div>
   </details>
-  <p class="research-card__footer">{{ paper.venue | escape }} · {{ paper.year }}</p>
+  <p class="research-card__footer">
+  {% assign venue_parts = paper.venue | split: ',' %}
+  {% assign venue_part_count = venue_parts | size %}
+
+  {% if paper.type == 'journal' and venue_part_count == 2 %}
+    {% assign journal_words = venue_parts | first | strip | split: ' ' %}
+    {% assign volume = journal_words | last %}
+    {% assign journal_word_count = journal_words | size | minus: 1 %}
+
+    <cite>{{ journal_words | slice: 0, journal_word_count | join: ' ' | escape }}</cite> <strong>{{ volume | escape }}</strong>, {{ venue_parts | last | strip | escape }} ({{ paper.year | escape }})
+  {% else %}
+    <cite>{{ paper.venue | escape }}</cite>  · {{ paper.year }}.
+  {% endif %}
+</p>
 </article>
