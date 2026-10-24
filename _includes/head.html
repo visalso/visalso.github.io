@@ -28,11 +28,16 @@
 {% endif %}
 <script>
   (function () {
-    var preferred = null;
-    try { preferred = localStorage.getItem('visal-theme'); } catch (error) {}
-    var theme = preferred === 'light' || preferred === 'dark'
-      ? preferred
-      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var theme = 'dark';
+
+    try {
+      var saved = localStorage.getItem('visal-theme');
+
+      if (saved === 'light' || saved === 'dark') {
+        theme = saved;
+      }
+    } catch (error) {}
+
     document.documentElement.dataset.theme = theme;
   }());
 </script>
