@@ -1,41 +1,55 @@
-/* Visal So — one stylesheet, no framework or icon-font dependency. */
-
+/* Light theme */
 :root {
   color-scheme: light;
+
   --page: #f5f7fa;
   --surface: #ffffff;
   --surface-soft: #eaf0f5;
   --text: #19273b;
   --muted: #526176;
   --line: #d6dfe8;
+
   --accent: #00627b;
   --accent-soft: #e2f1f4;
   --button: #133f51;
   --button-text: #ffffff;
-  --hero: #0b1423;
-  --hero-surface: #132137;
-  --hero-text: #f0f5fc;
-  --hero-muted: #b7c6d9;
-  --hero-line: #2b3e55;
-  --cyan: #94e3f0;
+
+  --hero: #f5f7fa;
+  --hero-surface: #ffffff;
+  --hero-text: #19273b;
+  --hero-muted: #526176;
+  --hero-line: #d6dfe8;
+  --cyan: #00627b;
+
   --amber: #f1c37a;
   --focus: #007e9d;
   --shadow: 0 12px 28px rgb(18 37 58 / 5%);
   --radius: 14px;
 }
 
+/* Dark theme */
 html[data-theme="dark"] {
   color-scheme: dark;
+
   --page: #0e1828;
   --surface: #152237;
   --surface-soft: #1c2b40;
   --text: #edf3fb;
   --muted: #adbed3;
   --line: #2a3c52;
+
   --accent: #94e3f0;
   --accent-soft: #1b3545;
   --button: #94e3f0;
   --button-text: #102239;
+
+  --hero: #0b1423;
+  --hero-surface: #132137;
+  --hero-text: #f0f5fc;
+  --hero-muted: #b7c6d9;
+  --hero-line: #2b3e55;
+  --cyan: #94e3f0;
+
   --focus: #a0e7f1;
   --shadow: none;
 }
