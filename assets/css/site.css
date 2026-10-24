@@ -253,7 +253,7 @@ strong { font-weight: 650; }
 .profile__email { display: block; color: var(--hero-text); margin-top: 10px; font-size: .92rem; text-decoration: none; overflow-wrap: anywhere; }
 .profile__email span { color: var(--cyan); }
 .profile__links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 13px; }
-.profile__links a { color: var(--cyan); font-size: .76rem; min-height: 30px; display: inline-flex; align-items: center; }
+.profile__links a { color: var(--cyan); font-size: .76rem; min-height: 30px; display: inline-flex; align-items: center; gap: 6px;}
 .ion-strip img { width: 100%; max-height: 112px; object-fit: cover; border-radius: 8px; }
 .ion-strip figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; margin-top: 10px; color: var(--hero-muted); font-size: .7rem; letter-spacing: .025em; }
 
