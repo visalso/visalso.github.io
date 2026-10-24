@@ -1,0 +1,14 @@
+{% assign paper = include.paper %}
+<article class="research-card">
+  <span class="research-card__tag">{{ paper.category | escape }}</span>
+  <h3 class="research-card__title"><a href="{{ '/publications/' | relative_url }}#{{ paper.id | escape }}">{{ paper.short_title | escape }}</a></h3>
+  <p class="research-card__summary">{{ paper.summary | escape }}</p>
+  <details class="disclosure research-card__details">
+    <summary>Paper details<span class="sr-only">: {{ paper.short_title | escape }}</span></summary>
+    <p>{{ paper.title | escape }}.</p>
+    <div class="actions">
+      {% for link in paper.links %}<a class="text-link" href="{{ link.url | escape }}">{{ link.label | escape }}<span aria-hidden="true"> ↗</span></a>{% endfor %}
+    </div>
+  </details>
+  <p class="research-card__footer">{{ paper.venue | escape }} · {{ paper.year }}</p>
+</article>
