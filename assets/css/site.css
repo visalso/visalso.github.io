@@ -208,7 +208,7 @@ strong { font-weight: 650; }
   justify-content: center;
   gap: 8px;
   min-height: 42px;
-  min-width: 44px;
+  min-width: 30px;
   padding: 2px;
   border: 1px solid var(--hero-line);
   border-radius: 8px;
