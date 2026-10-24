@@ -131,7 +131,6 @@
   <section class="paper__panel" id="abstract-{{ paper.id | escape }}" aria-labelledby="abstract-title-{{ paper.id | escape }}" hidden>
     <h4 id="abstract-title-{{ paper.id | escape }}">Abstract</h4>
     <p class="paper__abstract">{% if abstract_html != '' %}{{ abstract_html }}{% else %}{{ abstract_text | escape | newline_to_br }}{% endif %}</p>
-    {% if abstract_source != '' %}<p class="paper__source">Source: <a href="{{ abstract_source | escape }}">{{ abstract_source_name | escape }}</a>{% if abstract_license != '' %} · {% if abstract_license_url != '' %}<a href="{{ abstract_license_url | escape }}">{{ abstract_license | escape }}</a>{% else %}{{ abstract_license | escape }}{% endif %}{% endif %}{% if abstract_attribution != '' %} · {{ abstract_attribution | escape }}{% endif %}</p>{% endif %}
   </section>
   {% endif %}
   <section class="paper__panel" id="bibtex-{{ paper.id | escape }}" aria-labelledby="bibtex-title-{{ paper.id | escape }}" hidden>
