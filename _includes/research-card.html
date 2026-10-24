@@ -21,7 +21,7 @@
 
     <cite>{{ journal_words | slice: 0, journal_word_count | join: ' ' | escape }}</cite> <strong>{{ volume | escape }}</strong>, {{ venue_parts | last | strip | escape }} ({{ paper.year | escape }})
   {% else %}
-    <cite>{{ paper.venue | escape }}</cite>  · {{ paper.year }}.
+    <cite>{{ paper.venue | escape }}</cite> ({{ paper.year | escape }}).
   {% endif %}
 </p>
 </article>
