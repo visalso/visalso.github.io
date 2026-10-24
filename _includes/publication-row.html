@@ -1,4 +1,7 @@
 {% assign paper = include.paper %}
+{% assign details = site.data.publication_details[paper.id] %}
+{% assign paper_title = details.display_title | default: paper.title %}
+{% assign paper_authors = details.display_authors | default: paper.authors %}
 {% assign first_link = paper.links | first %}
 {% assign arxiv_url = paper.arxiv_url | default: '' %}
 {% assign pdf_url = paper.pdf_url | default: '' %}
@@ -12,7 +15,26 @@
   {% assign arxiv_id = arxiv_url | split: '/abs/' | last | split: '?' | first | split: '#' | first %}
   {% if pdf_url == '' %}{% assign pdf_url = 'https://arxiv.org/pdf/' | append: arxiv_id %}{% endif %}
 {% endif %}
-{% assign abstract_text = paper.abstract | default: '' | strip %}
+{% assign custom_abstract = paper.abstract | default: '' | strip %}
+{% if custom_abstract != '' %}
+  {% assign abstract_text = custom_abstract %}
+  {% assign abstract_html = '' %}
+  {% assign abstract_source = paper.abstract_source | default: '' %}
+  {% assign abstract_source_name = paper.abstract_source_name | default: 'Original abstract' %}
+  {% assign abstract_license = paper.abstract_license | default: '' %}
+  {% assign abstract_license_url = paper.abstract_license_url | default: '' %}
+  {% assign abstract_attribution = paper.abstract_attribution | default: '' %}
+{% else %}
+  {% assign abstract_text = details.abstract | default: '' | strip %}
+  {% assign abstract_html = details.abstract_html | default: '' | strip %}
+  {% assign abstract_source = details.abstract_source | default: '' %}
+  {% assign abstract_source_name = details.abstract_source_name | default: 'Original abstract' %}
+  {% assign abstract_license = details.abstract_license | default: '' %}
+  {% assign abstract_license_url = details.abstract_license_url | default: '' %}
+  {% assign abstract_attribution = details.abstract_attribution | default: '' %}
+{% endif %}
+{% assign has_abstract = false %}
+{% if abstract_text != '' or abstract_html != '' %}{% assign has_abstract = true %}{% endif %}
 {% assign abstract_url = paper.abstract_url | default: arxiv_url | default: first_link.url %}
 {% assign thumbnail_src = '' %}
 {% assign thumbnail_path = paper.thumbnail | default: paper.image | default: '' %}
@@ -41,10 +63,10 @@
   {% assign doi_suffix = first_link.url | split: '/10.' | last | split: '?' | first | split: '#' | first %}
   {% assign doi = '10.' | append: doi_suffix %}
 {% endif %}
-{% assign bibtex_title = paper.title | replace: '¹³', '$^{13}$' | replace: '¹', '$^{1}$' | replace: '₅/₂', '$_{5/2}$' | replace: '⁺', '$^{+}$' %}
+{% assign bibtex_title = paper_title | replace: '¹³', '$^{13}$' | replace: '¹', '$^{1}$' | replace: '₅/₂', '$_{5/2}$' | replace: '⁺', '$^{+}$' %}
 {% capture generated_bibtex %}@{% case paper.type %}{% when 'journal' %}article{% when 'proceedings' %}inproceedings{% else %}misc{% endcase %}{ {{- paper.id -}},
   title = {% raw %}{{{% endraw %}{{ bibtex_title }}{% raw %}}}{% endraw %},
-  author = { {{- paper.authors | join: ' and ' -}} },
+  author = { {{- paper_authors | join: ' and ' -}} },
 {% if paper.type == 'journal' %}  journal = { {{- journal_name -}} },
 {% if volume != '' %}  volume = { {{- volume -}} },
   pages = { {{- article_number -}} },
@@ -55,12 +77,20 @@
   archivePrefix = {arXiv},
 {% endif %}  url = { {{- first_link.url -}} }
 }{% endcapture %}
-{% assign bibtex = paper.bibtex | default: generated_bibtex | strip %}
+{% assign custom_bibtex = paper.bibtex | default: '' | strip %}
+{% assign bibtex = custom_bibtex | default: details.bibtex | default: generated_bibtex | strip %}
+{% if custom_bibtex != '' %}
+  {% assign bibtex_source = paper.bibtex_source | default: '' %}
+  {% assign bibtex_source_name = paper.bibtex_source_name | default: 'Citation source' %}
+{% else %}
+  {% assign bibtex_source = details.bibtex_source | default: '' %}
+  {% assign bibtex_source_name = details.bibtex_source_name | default: 'Citation source' %}
+{% endif %}
 {% assign bibtex_open_brace = '{' %}
 {% assign bibtex_close_brace = '}' %}
 <article class="paper{% if thumbnail_src != '' %} paper--with-thumbnail{% endif %}" id="{{ paper.id | escape }}" data-paper-type="{{ paper.type | default: 'journal' | escape }}">
   {% if thumbnail_src != '' %}
-  <a class="paper__thumbnail" href="{{ first_link.url | escape }}" aria-label="Read {{ paper.title | escape }}">
+  <a class="paper__thumbnail" href="{{ first_link.url | escape }}" aria-label="Read {{ paper_title | escape }}">
     <img src="{{ thumbnail_src | escape }}" alt="{{ paper.thumbnail_alt | default: paper.short_title | escape }}" width="640" height="480" loading="lazy" decoding="async">
   </a>
   {% endif %}
@@ -72,8 +102,8 @@
       {% else %}<span class="badge">Journal article</span>
     {% endcase %}
   </div>
-  <h3 class="paper__title"><a href="{{ first_link.url | escape }}">{{ paper.title | escape }}</a></h3>
-  <p class="paper__authors">{% for author in paper.authors %}{% if author == 'V. So' %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
+  <h3 class="paper__title"><a href="{{ first_link.url | escape }}">{{ paper_title | escape }}</a></h3>
+  <p class="paper__authors">{% for author in paper_authors %}{% if author == 'V. So' %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
   <p class="paper__venue">
     {% if paper.type == 'journal' and venue_part_count == 2 %}
       <cite>{{ journal_name | escape }}</cite> <strong>{{ volume | escape }}</strong>, {{ article_number | escape }} ({{ paper.year | escape }})
@@ -84,7 +114,7 @@
   {% if paper.corresponding_author %}<p class="paper__note muted">{{ paper.corresponding_author | escape }}: corresponding author.</p>{% endif %}
   {% if paper.note %}<p class="paper__note">{% if paper.note_url %}<a href="{{ paper.note_url | escape }}">{{ paper.note | escape }}</a>{% else %}{{ paper.note | escape }}{% endif %}</p>{% endif %}
   <div class="paper__links actions" aria-label="Links for {{ paper.short_title | escape }}">
-    {% if abstract_text != '' %}
+    {% if has_abstract %}
     <button class="button button--secondary button--small" type="button" data-paper-toggle aria-controls="abstract-{{ paper.id | escape }}" aria-expanded="false" hidden>Abstract<span class="sr-only">: {{ paper.short_title | escape }}</span><span class="paper__toggle-icon" aria-hidden="true">+</span></button>
     {% elsif abstract_url %}
     <a class="button button--secondary button--small" href="{{ abstract_url | escape }}">Abstract<span class="sr-only">: {{ paper.short_title | escape }}</span><span aria-hidden="true">↗</span></a>
@@ -97,14 +127,16 @@
     {% if pdf_url != '' %}<a class="button button--secondary button--small" href="{{ pdf_url | escape }}"><svg width="14" height="16" viewBox="0 0 14 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 1h5l3 3v11H3z M8 1v4h3 M5 8h4 M5 11h4" /></svg>PDF<span class="sr-only">: {{ paper.short_title | escape }}</span><span aria-hidden="true">↗</span></a>{% endif %}
     <button class="button button--secondary button--small" type="button" data-paper-toggle aria-controls="bibtex-{{ paper.id | escape }}" aria-expanded="false" hidden>BibTeX<span class="sr-only">: {{ paper.short_title | escape }}</span><span class="paper__toggle-icon" aria-hidden="true">+</span></button>
   </div>
-  {% if abstract_text != '' %}
+  {% if has_abstract %}
   <section class="paper__panel" id="abstract-{{ paper.id | escape }}" aria-labelledby="abstract-title-{{ paper.id | escape }}" hidden>
     <h4 id="abstract-title-{{ paper.id | escape }}">Abstract</h4>
-    <p class="paper__abstract">{{ abstract_text | escape | newline_to_br }}</p>
+    <p class="paper__abstract">{% if abstract_html != '' %}{{ abstract_html }}{% else %}{{ abstract_text | escape | newline_to_br }}{% endif %}</p>
+    {% if abstract_source != '' %}<p class="paper__source">Source: <a href="{{ abstract_source | escape }}">{{ abstract_source_name | escape }}</a>{% if abstract_license != '' %} · {% if abstract_license_url != '' %}<a href="{{ abstract_license_url | escape }}">{{ abstract_license | escape }}</a>{% else %}{{ abstract_license | escape }}{% endif %}{% endif %}{% if abstract_attribution != '' %} · {{ abstract_attribution | escape }}{% endif %}</p>{% endif %}
   </section>
   {% endif %}
   <section class="paper__panel" id="bibtex-{{ paper.id | escape }}" aria-labelledby="bibtex-title-{{ paper.id | escape }}" hidden>
     <h4 id="bibtex-title-{{ paper.id | escape }}">BibTeX</h4>
+    {% if bibtex_source != '' %}<p class="paper__source"><a href="{{ bibtex_source | escape }}">{{ bibtex_source_name | escape }}</a></p>{% endif %}
     <pre class="paper__bibtex" tabindex="0"><code data-bibtex>{{ bibtex | escape | replace: bibtex_open_brace, '&#123;' | replace: bibtex_close_brace, '&#125;' }}</code></pre>
     <button class="button button--secondary button--small" type="button" data-copy-bibtex aria-label="Copy BibTeX for {{ paper.short_title | escape }}" hidden>Copy BibTeX</button>
     <p class="paper__copy-status" role="status" aria-live="polite" data-copy-status></p>
