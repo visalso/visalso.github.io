@@ -2,7 +2,7 @@
 # Homepage entries are selected with featured: true; all updates appear on Research.
 - date_label: Aug 2026
   title: IQIM Postdoctoral Fellowship at Caltech
-  summary: Awarded a three-year fellowship, August 2026–August 2029, to pursue experimental quantum information science with individually controlled neutral atoms in the Endres Lab.
+  summary: I have been awarded a three-year fellowship, August 2026–August 2029, to pursue experimental quantum information science with individually controlled neutral atoms in the Endres Lab.
   featured: true
   links:
     - label: Endres Lab
@@ -19,7 +19,7 @@
 
 - date_label: Apr 2026
   title: Ph.D. defense at Rice University
-  summary: Defended “Trapped-ion quantum simulation of open-system chemical dynamics” on April 22, 2026, under the supervision of Prof. Guido Pagano.
+  summary: I successfully defended “Trapped-ion quantum simulation of open-system chemical dynamics” on April 22, 2026.
   featured: true
   links:
     - label: Read the thesis
@@ -27,7 +27,7 @@
 
 - date_label: Nov 2025
   title: Quantum Talents Symposium, Munich
-  summary: Presented an invited talk as a finalist, recognizing work on quantum simulation of open-system chemical dynamics using trapped ions.
+  summary: I was selected as one of Quantum Talents and presented my work on quantum simulation of open-system chemical dynamics using trapped ions at the Max Planck Institute of Quantum Optics.
   featured: false
   links:
     - label: Symposium news
@@ -40,7 +40,7 @@
 
 - date_label: Sep 2025
   title: Texas Quantum Summit poster
-  summary: Presented “Open-System Quantum Simulation of Chemical Dynamics with Trapped Ions” at the first Texas Quantum Summit, held September 19–20 at Texas A&M University. The poster appears on page 30 of the collection.
+  summary: I presented my work on “Open-System Quantum Simulation of Chemical Dynamics with Trapped Ions” at the first Texas Quantum Summit, held September 19–20 at Texas A&M University. The poster appears on page 30 of the collection.
   featured: false
   links:
     - label: Poster collection
@@ -48,7 +48,7 @@
 
 - date_label: Aug 2025
   title: QSim Conference, New York City
-  summary: Contributed a talk on quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs on August 8, 2025, at the conference hosted by the Institute for Robust Quantum Simulation.
+  summary: I contributed a talk on quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs on August 8, 2025, at the conference hosted by the Institute for Robust Quantum Simulation.
   featured: false
   links:
     - label: Watch the talk
@@ -56,7 +56,7 @@
 
 - date_label: Jan 2025
   title: Rice Quantum Initiative Seminar
-  summary: Invited talk on trapped-ion quantum simulation of electron transfer models with tunable dissipation.
+  summary: I gave an invited talk on trapped-ion quantum simulation of electron transfer models with tunable dissipation.
   featured: false
   links:
     - label: Talk abstract (PDF)
