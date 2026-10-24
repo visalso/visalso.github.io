@@ -1,0 +1,90 @@
+---
+layout: default
+title: "Experimental quantum physicist"
+description: "Visal So is an IQIM Postdoctoral Scholar at Caltech working on neutral-atom quantum computing and trapped-ion quantum simulation."
+permalink: /
+home: true
+---
+
+<section class="hero-section" aria-labelledby="home-title">
+  <div class="container hero">
+    <div class="hero__copy">
+      <p class="eyebrow">Experimental quantum physics</p>
+      <h1 id="home-title">Visal So<span class="name-dot" aria-hidden="true">.</span></h1>
+      <p class="hero__role">{{ site.role | escape }} · {{ site.affiliation | escape }}</p>
+      <p class="hero__lead">Building quantum systems to explore <span>complex dynamics</span> and advance quantum computing.</p>
+      <div class="hero__background">
+        <p>I am an IQIM Postdoctoral Scholar at Caltech, hosted by <a href="https://www.endreslab.com/">Manuel Endres’s group</a>, where I work on large-scale quantum computers based on neutral-atom arrays. I received my Ph.D. in Physics from Rice University with <a href="https://paganolab.rice.edu/">Guido Pagano</a>, developing trapped-ion quantum simulators to study open-system chemical dynamics.</p>
+        <p>My research connects quantum information, AMO physics, and chemical physics through hardware-efficient tools and programmable quantum dynamics.</p>
+      </div>
+      <div class="actions hero__actions">
+        <a class="button button--primary" href="{{ '/research/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
+        <a class="button button--secondary" href="{{ '/CV/' | relative_url }}">View CV</a>
+      </div>
+    </div>
+    <aside class="profile" aria-label="Profile and contact">
+      <img class="profile__photo" src="{{ site.portrait | relative_url }}" alt="Visal So in a laboratory with experimental equipment behind him" width="775" height="775" fetchpriority="high">
+      <div class="profile__body">
+        <p class="profile__caption">Quantum science, from the ground up.</p>
+        <a class="profile__email" href="mailto:{{ site.email | escape }}">{{ site.email | escape }} <span aria-hidden="true">↗</span></a>
+        <div class="profile__links">
+          <a href="{{ site.scholar_url | escape }}">Scholar</a>
+          <a href="https://orcid.org/0009-0001-1326-3120">ORCID</a>
+          <a href="https://www.linkedin.com/in/visalso">LinkedIn</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <figure class="container ion-strip">
+    <img src="{{ site.ion_image | relative_url }}" alt="A line of bright trapped-ion fluorescence spots against a dark background" width="1687" height="255" decoding="async">
+    <figcaption><span>Trapped-ion fluorescence</span><span>Hardware · Control · Discovery</span></figcaption>
+  </figure>
+</section>
+
+<section class="container section" aria-labelledby="selected-research-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">From experiments to insight</p>
+      <h2 id="selected-research-title">Selected research</h2>
+    </div>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="research-grid">
+    {% assign selected_papers = site.data.publications | where: 'selected', true | sort: 'selected_order' %}
+    {% for paper in selected_papers %}
+      {% include research-card.html paper=paper %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="container section updates-section" aria-labelledby="updates-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Along the way</p>
+      <h2 id="updates-title">Recent updates</h2>
+    </div>
+    <a class="text-link" href="{{ '/research/#updates' | relative_url }}">More updates <span aria-hidden="true">↗</span></a>
+  </div>
+  <ol class="timeline">
+    {% assign featured_news = site.data.news | where: 'featured', true %}
+    {% for item in featured_news limit: 3 %}
+    <li class="timeline__item">
+      <span class="timeline__date">{{ item.date_label | escape }}</span>
+      <div class="timeline__body">
+        <h3>{{ item.title | escape }}</h3>
+        <p>{{ item.summary | escape }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="container contact-section" id="contact" aria-labelledby="contact-title">
+  <div>
+    <p class="section-kicker">Get in touch</p>
+    <h2 id="contact-title">Let’s talk quantum science.</h2>
+    <p>For research conversations and collaborations, you can reach me by email.</p>
+  </div>
+  <a class="button button--primary" href="mailto:{{ site.email | escape }}">{{ site.email | escape }} <span aria-hidden="true">↗</span></a>
+</section>
+

@@ -1,0 +1,83 @@
+---
+layout: default
+title: CV
+description: Visal So’s academic CV, one-page résumé, education and current research appointment.
+permalink: /CV/
+nav: cv
+---
+<header class="page-header container">
+  <p class="eyebrow">Experience &amp; background</p>
+  <h1 class="page-title">Curriculum vitae</h1>
+  <p class="lead">Experimental quantum physics, from the hardware to the dynamics.</p>
+</header>
+
+<div class="container">
+  <section class="section cv-downloads" aria-labelledby="documents-title">
+    <div class="section-heading"><h2 id="documents-title">Documents</h2></div>
+    <div class="download-grid">
+      <article class="download-card">
+        <p class="section-kicker">Academic record</p>
+        <h3>Full CV</h3>
+        <p>Research, education, publications, teaching, and professional experience.</p>
+        <p class="muted">PDF updated <time datetime="{{ site.cv_updated | date: '%Y-%m-%d' }}">{{ site.cv_updated | date: '%B %-d, %Y' }}</time>.</p>
+        <a class="button button--primary" href="{{ '/cv_web.pdf' | relative_url }}" download>Download CV (PDF) <span aria-hidden="true">↓</span></a>
+      </article>
+      <article class="download-card">
+        <p class="section-kicker">At a glance</p>
+        <h3>One-page résumé</h3>
+        <p>A compact overview of experience, selected work, and recognition.</p>
+        <p class="muted">PDF updated <time datetime="{{ site.cv_updated | date: '%Y-%m-%d' }}">{{ site.cv_updated | date: '%B %-d, %Y' }}</time>.</p>
+        <a class="button button--secondary" href="{{ '/resume_web.pdf' | relative_url }}" download>Download résumé (PDF) <span aria-hidden="true">↓</span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section project" aria-labelledby="appointment-title">
+    <div class="project__heading">
+      <p class="section-kicker">Current appointment</p>
+      <h2 id="appointment-title">Caltech</h2>
+    </div>
+    <div class="project__body prose">
+      <h3>IQIM Postdoctoral Scholar</h3>
+      <p class="muted">August 2026–August 2029 · Endres Lab</p>
+      <p>Experimental quantum information science with individually controlled neutral atoms in the Division of Physics, Mathematics and Astronomy at the California Institute of Technology.</p>
+      <a class="text-link" href="{{ '/research/' | relative_url }}#neutral-atoms">Current research <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="education-title">
+    <div class="section-heading"><h2 id="education-title">Education</h2></div>
+    <div class="timeline">
+      <article class="timeline__item">
+        <p class="timeline__date">2026</p>
+        <div class="timeline__body">
+          <h3>Ph.D. in Physics · Rice University</h3>
+          <p>Advisor: Prof. Guido Pagano. Dissertation: “Trapped-ion quantum simulation of open-system chemical dynamics.”</p>
+          <a class="text-link" href="{{ '/research/' | relative_url }}#thesis">Thesis and recognition <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="timeline__item">
+        <p class="timeline__date">2023</p>
+        <div class="timeline__body">
+          <h3>M.S. in Physics · Rice University</h3>
+          <p>Master of Science in Physics, conferred May 2023.</p>
+        </div>
+      </article>
+      <article class="timeline__item">
+        <p class="timeline__date">2019</p>
+        <div class="timeline__body">
+          <h3>B.S. in Physics · University of Oklahoma</h3>
+          <p>Summa cum laude with honors. Undergraduate research with Prof. Eric R. I. Abraham.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section contact-section" aria-labelledby="cv-contact-title">
+    <div>
+      <p class="section-kicker">Get in touch</p>
+      <h2 id="cv-contact-title">Let’s talk quantum science.</h2>
+    </div>
+    <a class="button button--primary" href="mailto:{{ site.email | escape }}">{{ site.email | escape }} <span aria-hidden="true">↗</span></a>
+  </section>
+</div>

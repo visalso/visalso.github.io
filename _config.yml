@@ -1,0 +1,52 @@
+title: "Visal So"
+author: "Visal So"
+description: "Experimental quantum physicist and IQIM Postdoctoral Scholar at Caltech. Neutral-atom quantum computing, trapped-ion simulation, and programmable quantum dynamics."
+url: "https://visalso.github.io"
+baseurl: ""
+lang: "en"
+email: "visalso@caltech.edu"
+role: "IQIM Postdoctoral Scholar"
+affiliation: "Caltech"
+brand_image: "/assets/smiley_ion.png"
+portrait: "/assets/prof_pic.jpg"
+ion_image: "/assets/header_banner.png"
+scholar_url: "https://scholar.google.com/citations?user=hl-oGi4AAAAJ&hl=en"
+cv_updated: "2026-03-15"
+
+navigation:
+  - title: Research
+    url: /research/
+    id: research
+  - title: Publications
+    url: /publications/
+    id: publications
+  - title: CV
+    url: /CV/
+    id: cv
+  - title: Contact
+    url: /#contact
+    id: contact
+
+social_links:
+  - title: Google Scholar
+    url: "https://scholar.google.com/citations?user=hl-oGi4AAAAJ&hl=en"
+  - title: ORCID
+    url: "https://orcid.org/0009-0001-1326-3120"
+  - title: LinkedIn
+    url: "https://www.linkedin.com/in/visalso"
+
+# This site needs no Jekyll plugins, external icon fonts, or JavaScript packages.
+plugins: []
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
+# Keep repository documentation and dependency files out of the published site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - ALL_REPLACEMENT_CODE.txt
+  - vendor
+  - .bundle
+

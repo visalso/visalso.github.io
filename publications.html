@@ -1,0 +1,24 @@
+---
+layout: default
+title: Publications
+description: Journal articles, preprints and proceedings by Visal So in experimental quantum physics, quantum simulation and quantum hardware.
+permalink: /publications/
+nav: publications
+---
+<header class="page-header container">
+  <p class="eyebrow">Papers &amp; preprints</p>
+  <h1 class="page-title">Publications</h1>
+  <p class="lead">Quantum simulation, open-system dynamics, and the hardware that makes them possible.</p>
+  <p class="muted">Also on <a href="{{ site.scholar_url | escape }}">Google Scholar</a> and <a href="https://orcid.org/0009-0001-1326-3120">ORCID</a>.</p>
+</header>
+<div class="container publication-years">
+  {% assign publication_years = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+  {% for year in publication_years %}
+  <section class="section publication-year" aria-labelledby="year-{{ year.name }}">
+    <div class="section-heading"><h2 id="year-{{ year.name }}">{{ year.name }}</h2></div>
+    <div class="paper-list">
+      {% for paper in year.items %}{% include publication-row.html paper=paper %}{% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>
