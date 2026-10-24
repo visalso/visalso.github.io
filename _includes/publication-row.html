@@ -1,4 +1,5 @@
 {% assign paper = include.paper %}
+{% assign details = paper %}
 {% assign first_link = paper.links | first %}
 {% assign arxiv_url = nil %}
 {% for link in paper.links %}
@@ -11,7 +12,7 @@
   {% if paper.thumbnail %}
     <div class="paper__thumbnail">
       <img src="{{ paper.thumbnail | relative_url }}"
-           alt="{{ paper.thumbnail_alt | default: paper.short_title | escape }}"
+           alt="{{ paper.thumbnail_alt | default: paper.short_title | default: paper.title | escape }}"
            loading="lazy" decoding="async">
     </div>
   {% endif %}
@@ -63,7 +64,7 @@
   <div class="paper__links actions" aria-label="Links and options for {{ paper.short_title | default: paper.title | escape }}">
     {% for link in paper.links %}
       <a class="button button--secondary button--small" href="{{ link.url | escape }}">
-        {{ link.label | escape }} <span aria-hidden="true">↗</span>
+        {{ link.label | escape }}<span class="sr-only">: {{ paper.short_title | default: paper.title | escape }}</span> <span aria-hidden="true">↗</span>
       </a>
     {% endfor %}
 
@@ -72,7 +73,7 @@
       <a class="button button--secondary button--small" href="{{ pdf_url | escape }}">PDF <span aria-hidden="true">↗</span></a>
     {% endif %}
 
-    {% if paper.abstract %}
+    {% if details.abstract %}
       <button class="button button--secondary button--small" type="button"
               aria-controls="abstract-{{ paper.id | escape }}" aria-expanded="false"
               onclick="var panel=document.getElementById(this.getAttribute('aria-controls'));var open=panel.hidden;panel.hidden=!open;panel.style.display=open?'block':'none';this.setAttribute('aria-expanded',String(open));">
@@ -80,7 +81,7 @@
       </button>
     {% endif %}
 
-    {% if paper.bibtex %}
+    {% if details.bibtex %}
       <button class="button button--secondary button--small" type="button"
               aria-controls="bibtex-{{ paper.id | escape }}" aria-expanded="false"
               onclick="var panel=document.getElementById(this.getAttribute('aria-controls'));var open=panel.hidden;panel.hidden=!open;panel.style.display=open?'block':'none';this.setAttribute('aria-expanded',String(open));">
@@ -89,28 +90,28 @@
     {% endif %}
   </div>
 
-  {% if paper.abstract %}
+  {% if details.abstract %}
     <div class="paper__panel paper__abstract" id="abstract-{{ paper.id | escape }}" hidden style="display:none">
       <h4>Abstract</h4>
-      <p>{{ paper.abstract | escape }}</p>
-      {% if paper.abstract_source %}
-        <p class="paper__note muted"><a href="{{ paper.abstract_source | escape }}">Read the source abstract ↗</a></p>
+      <p>{{ details.abstract | escape }}</p>
+      {% if details.abstract_source %}
+        <p class="paper__note muted"><a href="{{ details.abstract_source | escape }}">Read source abstract ↗</a></p>
       {% endif %}
     </div>
   {% endif %}
 
-  {% if paper.bibtex %}
+  {% if details.bibtex %}
     <div class="paper__panel paper__bibtex" id="bibtex-{{ paper.id | escape }}" hidden style="display:none">
       <h4>BibTeX</h4>
-      <pre><code>{{ paper.bibtex | escape }}</code></pre>
+      <pre><code>{{ details.bibtex | escape }}</code></pre>
       <button class="button button--secondary button--small" type="button"
               onclick="var b=this,c=b.closest('.paper__panel').querySelector('code');if(!c || !navigator.clipboard){b.textContent='Select text to copy';return;}navigator.clipboard.writeText(c.textContent).then(function(){b.textContent='Copied!';},function(){b.textContent='Select text to copy';});">
         Copy BibTeX
       </button>
-      {% if paper.bibtex_source %}
+      {% if details.bibtex_source %}
         <p class="paper__note muted">
-          {% if paper.bibtex_status == 'publisher-export' %}Publisher BibTeX export{% else %}Citation metadata source{% endif %}:
-          <a href="{{ paper.bibtex_source | escape }}">View source ↗</a>
+          {% if details.bibtex_status == 'publisher-export' %}Publisher BibTeX export{% else %}Citation metadata source{% endif %}:
+          <a href="{{ details.bibtex_source | escape }}">View source ↗</a>
         </p>
       {% endif %}
     </div>
