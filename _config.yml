@@ -20,9 +20,6 @@ navigation:
   - title: Publications
     url: /publications/
     id: publications
-  - title: CV
-    url: /CV/
-    id: cv
   - title: Contact
     url: /#contact
     id: contact
