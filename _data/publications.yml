@@ -24,8 +24,7 @@
   year: 2026
   venue: Physical Review Applied 26, 044037
   type: journal
-  selected: true
-  selected_order: 3
+  selected: false
   links:
     - label: Journal
       url: https://journals.aps.org/prapplied/abstract/10.1103/srq8-cgnt
@@ -51,7 +50,7 @@
   venue: Physical Review Letters 137, 050604
   type: journal
   selected: true
-  selected_order: 1
+  selected_order: 2
   links:
     - label: Journal
       url: https://journals.aps.org/prl/abstract/10.1103/mf8d-91ws
@@ -79,7 +78,7 @@
   venue: Nature Communications 17, 438
   type: journal
   selected: true
-  selected_order: 2
+  selected_order: 3
   note: Featured in the Ultrafast Chemistry collection
   note_url: https://www.nature.com/collections/egefhbgeba
   links:
@@ -170,7 +169,8 @@
   year: 2024
   venue: Science Advances 10, eads8011
   type: journal
-  selected: false
+  selected: true
+  selected_order: 1
   links:
     - label: Journal
       url: https://www.science.org/doi/10.1126/sciadv.ads8011
