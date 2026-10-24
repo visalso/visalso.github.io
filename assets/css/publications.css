@@ -28,7 +28,7 @@
 
 @media (max-width: 640px) {
   .paper--with-thumbnail { grid-template-columns: 1fr; gap: 14px; }
-  .paper__thumbnail { width: min(100%, 200px); }
+  .paper__thumbnail { width: min(200%, 400px); }
 }
 @media (pointer: coarse) {
   .publication-filter { min-height: 44px; }
