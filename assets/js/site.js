@@ -150,3 +150,24 @@
   });
 }());
 
+// Render mathematical notation in expandable abstracts
+document.addEventListener('click', function (event) {
+  const button = event.target.closest('[data-paper-toggle]');
+  if (!button) return;
+
+  const id = button.getAttribute('aria-controls');
+  if (!id || !id.startsWith('abstract-')) return;
+
+  requestAnimationFrame(function () {
+    const panel = document.getElementById(id);
+
+    if (
+      panel &&
+      !panel.hidden &&
+      window.MathJax &&
+      typeof window.MathJax.typesetPromise === 'function'
+    ) {
+      window.MathJax.typesetPromise([panel]).catch(console.error);
+    }
+  });
+});
