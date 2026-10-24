@@ -6,63 +6,70 @@ permalink: /research/
 nav: research
 ---
 <header class="page-header container">
-  <p class="eyebrow">From concepts to applications</p>
+  <p class="eyebrow">From hardware to dynamics</p>
   <h1 class="page-title">Research</h1>
   <p class="lead">Building controllable quantum systems to explore complex dynamics and develop scalable quantum technologies.</p>
-  <!--<nav class="actions page-jumps" aria-label="Research sections">
-    <a class="text-link" href="#neutral-atoms">Current work</a>
+  <nav class="actions page-jumps" aria-label="Research sections">
+    <a class="text-link" href="#neutral-atoms">Neutral atoms</a>
     <a class="text-link" href="#open-systems">Open quantum systems</a>
     <a class="text-link" href="#hardware">Hardware</a>
+    <a class="text-link" href="#updates">Along the way</a>
     <a class="text-link" href="#thesis">Thesis</a>
-    <a class="text-link" href="#updates">Talks &amp; updates</a>
-  </nav>-->
+  </nav>
 </header>
 
-<div class="container">
-  <section class="section project" id="neutral-atoms" aria-labelledby="neutral-atoms-title">
+
+<div class="container research-page__columns">
+  <section class="research-page__themes" id="research-themes" aria-labelledby="research-themes-title">
+    <header class="research-page__column-heading">
+      <p class="section-kicker">What I study</p>
+      <h2 id="research-themes-title">Research themes</h2>
+    </header>
+    <div class="research-page__cards">
+  <section class="section project research-theme-card" id="neutral-atoms" aria-labelledby="neutral-atoms-title">
     <div class="project__heading">
-      <p class="section-kicker">Current work · California Institute of Technology</p>
-      <h2 id="neutral-atoms-title">Scalable neutral-atom quantum computing</h2>
+      <p class="section-kicker">Current work · Caltech</p>
+      <h3 id="neutral-atoms-title">Scalable neutral-atom quantum computing</h3>
     </div>
     <div class="project__body prose">
-      <p>I am currently working on a next-generation, large-scale quantum computer based on arrays of individually controlled neutral atoms, while also exploring protocols to advance this architecture toward practical utility.</p>
+      <p>As an IQIM Postdoctoral Scholar in the <a href="https://www.endreslab.com/">Endres Lab</a> at Caltech, I work on next-generation, large-scale quantum computers based on individually controlled neutral-atom arrays.</p>
+      <p>My broader goal is to develop hardware-efficient tools and protocols from the ground up, adding the control needed to explore regimes that are difficult to access with classical methods.</p>
       <p class="project__links"><a class="text-link" href="https://www.endreslab.com/">Explore the Endres Lab <span aria-hidden="true">↗</span></a></p>
     </div>
   </section>
-
-  <section class="section project" id="open-systems" aria-labelledby="open-systems-title">
+  <section class="section project research-theme-card" id="open-systems" aria-labelledby="open-systems-title">
     <div class="project__heading">
-      <p class="section-kicker">Ph.D. work · Rice University</p>
-      <h2 id="open-systems-title">Programmable open quantum systems</h2>
+      <p class="section-kicker">Trapped-ion quantum simulation</p>
+      <h3 id="open-systems-title">Programmable open quantum systems</h3>
     </div>
     <div class="project__body prose">
-      <p>How do coherent interactions and the surrounding environment shape quantum dynamics? My doctoral research in <a href="https://paganolab.rice.edu/">Prof. Guido Pagano’s Quantum Simulation Lab</a> at Rice University explored this question using trapped ions.</p>
-      <p>By engineering both coherent and dissipative interactions on a dual-species ion chain, we investigated excitation transfer dynamics and tunable thermal reservoirs at the interface of quantum information, AMO physics, condensed-matter physics, and chemical physics.</p>
+      <p>How do coherent interactions and the surrounding environment shape quantum dynamics? My doctoral research in <a href="https://paganolab.rice.edu/">Guido Pagano’s Quantum Simulation Lab</a> at Rice University explored this question using trapped ions and chemically motivated models.</p>
+      <p>By engineering both coherent and dissipative interactions, we investigated electron transfer, charge and exciton transfer, and tunable thermal reservoirs at the interface of quantum information, AMO physics, condensed-matter physics, and chemical physics.</p>
       <figure class="research-figure">
         <img src="{{ '/assets/header_banner.png' | relative_url }}" alt="A chain of bright trapped-ion fluorescence spots" width="1687" height="255" loading="lazy" decoding="async">
         <figcaption>Trapped-ion fluorescence: individually controlled particles as a platform for quantum simulation.</figcaption>
       </figure>
-      <h3>Thermal reservoirs with tunable temperature</h3>
+      <h4>Thermal reservoirs with tunable temperature</h4>
       <p>Realizing tunable thermal reservoirs in a trapped-ion spin-boson simulator extends the ways we can study open-system dynamics.</p>
       <div class="project__links actions">
         <a class="text-link" href="{{ '/publications/' | relative_url }}#thermal-reservoirs">Publication <span aria-hidden="true">→</span></a>
         <a class="text-link" href="https://news.rice.edu/news/2026/new-controls-allow-researchers-incorporate-thermal-effects-quantum-simulation">Rice News &amp; summary video <span aria-hidden="true">↗</span></a>
       </div>
-      <h3>Charge and exciton transfer</h3>
+      <h4>Charge and exciton transfer</h4>
       <p>Multi-mode models with engineered reservoirs provide a setting for investigating charge and excitation dynamics relevant to chemical systems.</p>
       <div class="project__links actions">
         <a class="text-link" href="{{ '/publications/' | relative_url }}#charge-exciton-transfer">Publication <span aria-hidden="true">→</span></a>
         <a class="text-link" href="https://news.rice.edu/news/2026/quantum-simulator-sheds-light-how-nature-moves-energy-systems-photosynthesis-and-solar">Rice News &amp; summary video <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="https://www.youtube.com/watch?v=jxOFuNQV0l0">QSim talk <span aria-hidden="true">↗</span></a>
       </div>
-      <h3>Excitation transfer with long-range interactions</h3>
+      <h4>Excitation transfer with long-range interactions</h4>
       <p>Related work investigates delocalized excitation transfer in open quantum systems with long-range interactions.</p>
       <div class="project__links actions">
         <a class="text-link" href="{{ '/publications/' | relative_url }}#delocalized-excitation-transfer">Publication <span aria-hidden="true">→</span></a>
         <a class="text-link" href="https://news.rice.edu/news/2025/quantum-leap-entangled-states-enhance-energy-transfer-models-molecular-systems">Rice News <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="https://phys.org/news/2025-10-entangled-states-energy-molecular.html">Phys.org <span aria-hidden="true">↗</span></a>
       </div>
-      <h3>Electron transfer with tunable dissipation</h3>
+      <h4>Electron transfer with tunable dissipation</h4>
       <p>This work uses trapped ions to simulate electron transfer models with controlled dissipation.</p>
       <div class="project__links actions">
         <a class="text-link" href="{{ '/publications/' | relative_url }}#electron-transfer">Publication <span aria-hidden="true">→</span></a>
@@ -71,11 +78,10 @@ nav: research
       </div>
     </div>
   </section>
-
-  <section class="section project" id="hardware" aria-labelledby="hardware-title">
+  <section class="section project research-theme-card" id="hardware" aria-labelledby="hardware-title">
     <div class="project__heading">
       <p class="section-kicker">Experimental tools</p>
-      <h2 id="hardware-title">Quantum hardware and control</h2>
+      <h3 id="hardware-title">Quantum hardware and control</h3>
     </div>
     <div class="project__body prose">
       <p>Quantum simulation depends on the devices and controls that make precise experiments possible. My work includes a collaboration on monolithic segmented three-dimensional ion traps for quantum technology applications.</p>
@@ -86,39 +92,45 @@ nav: research
       </div>
     </div>
   </section>
-
-  <section class="section project" id="thesis" aria-labelledby="thesis-title">
-    <div class="project__heading">
-      <p class="section-kicker">Rice University · 2026</p>
-      <h2 id="thesis-title">Doctoral thesis</h2>
-    </div>
-    <div class="project__body prose">
-      <h3>Trapped-ion quantum simulation of open-system chemical dynamics</h3>
-      <p>I defended my dissertation on April 22, 2026, under the supervision of Prof. Guido Pagano. It received the <strong>H. A. Wilson Research Award</strong> as the most outstanding Ph.D. thesis in Rice University’s Department of Physics and Astronomy for the 2025–2026 academic year.</p>
-      <p><a class="button button--primary" href="https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link">Read the thesis <span aria-hidden="true">↗</span></a></p>
-      <details class="disclosure">
-        <summary>Committee and thesis details</summary>
-        <p>The committee comprised Prof. Guido Pagano (Chair), Prof. Randall G. Hulet, and Prof. Songtao Chen. The thesis was submitted to Rice University’s open-access repository on April 24, 2026.</p>
-        <p>The linked version is dated April 26, 2026. It includes an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Section 6.2.1.</p>
-      </details>
     </div>
   </section>
 
-  <section class="section" id="updates" aria-labelledby="updates-title">
-    <div class="section-heading">
-      <div><p class="section-kicker">Along the way</p><h2 id="updates-title">Talks, recognition &amp; updates</h2></div>
-    </div>
-    <div class="timeline">
+  <aside class="research-page__updates" id="updates" aria-labelledby="updates-title">
+    <header class="research-page__column-heading">
+      <p class="section-kicker">Along the way</p>
+      <h2 id="updates-title">Talks, recognition &amp; updates</h2>
+    </header>
+    <div class="timeline research-page__timeline">
       {% for item in site.data.news %}
-      <article class="timeline__item">
+      {% assign is_thesis = false %}
+      {% if item.id == 'thesis' or item.title contains 'Ph.D. defense' or item.title contains 'Doctoral thesis' %}
+        {% assign is_thesis = true %}
+      {% endif %}
+      <article class="timeline__item"{% if is_thesis %} id="thesis"{% endif %}>
         <p class="timeline__date">{{ item.date_label | escape }}</p>
         <div class="timeline__body">
           <h3>{{ item.title | escape }}</h3>
           <p>{{ item.summary | escape }}</p>
-          {% if item.links %}<div class="actions">{% for link in item.links %}<a class="text-link" href="{% if link.internal %}{{ link.url | relative_url }}{% else %}{{ link.url | escape }}{% endif %}">{{ link.label | escape }}<span aria-hidden="true"> {% if link.internal %}→{% else %}↗{% endif %}</span></a>{% endfor %}</div>{% endif %}
+          {% if is_thesis %}
+          <div class="research-page__thesis">
+            <p><strong>Doctoral thesis:</strong> <em>Trapped-ion quantum simulation of open-system chemical dynamics</em></p>
+            <details class="disclosure research-page__thesis-details">
+              <summary>Committee and thesis details</summary>
+              <p>The committee comprised Prof. Guido Pagano (Chair), Prof. Randall G. Hulet, and Prof. Songtao Chen. The thesis was submitted to Rice University’s open-access repository on April 24, 2026.</p>
+              <p>The linked version is dated April 26, 2026. It includes an improved explanation of the initial vibronic-state preparation under “State preparation and basis rotation” in Section 6.2.1.</p>
+            </details>
+          </div>
+          {% endif %}
+          {% if item.links %}
+          <div class="actions">
+            {% for link in item.links %}
+            <a class="text-link" href="{% if link.internal %}{{ link.url | relative_url }}{% else %}{{ link.url | escape }}{% endif %}">{{ link.label | escape }}<span aria-hidden="true"> {% if link.internal %}→{% else %}↗{% endif %}</span></a>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </article>
       {% endfor %}
     </div>
-  </section>
+  </aside>
 </div>
