@@ -18,6 +18,10 @@
 .paper__panel { margin-top: 14px; padding: 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-soft); }
 .paper__panel h4 { font-size: .9rem; }
 .paper__abstract { margin-top: 10px; font-size: .9rem; line-height: 1.7; color: var(--muted); }
+.paper__abstract sub, .paper__abstract sup { font-size: .75em; line-height: 0; position: relative; vertical-align: baseline; }
+.paper__abstract sup { top: -.5em; }
+.paper__abstract sub { bottom: -.25em; }
+.paper__source { margin-top: 10px; color: var(--muted); font-size: .75rem; line-height: 1.6; overflow-wrap: anywhere; }
 .paper__bibtex { max-width: 100%; margin: 12px 0; padding-bottom: 6px; overflow-x: auto; white-space: pre; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .77rem; line-height: 1.6; }
 .paper__copy-status { margin-top: 8px; font-size: .8rem; color: var(--muted); }
 .paper__copy-status:empty { margin-top: 0; }
