@@ -1,10 +1,10 @@
 # The homepage uses selected: true and selected_order.
 - id: monolithic-ion-trap
-  title: Monolithic segmented three-dimensional ion trap for quantum 
-    technology applications
+  title: Monolithic segmented three-dimensional ion trap for quantum technology 
+    applications
   short_title: Building quantum hardware
-  summary: A monolithic, segmented three-dimensional ion trap for quantum 
-    technology applications.
+  summary: A monolithic, segmented three-dimensional ion trap for quantum technology 
+    applications.
   category: Quantum hardware
   authors:
     - A. Menon
@@ -33,17 +33,25 @@
       url: https://arxiv.org/abs/2603.16048
 
   abstract: >-
-    We develop and benchmark a segmented, monolithic three-dimensional Paul trap
-    fabricated in fused silica. The design aims to combine robust confinement and
-    low motional heating with strong optical access and the precision of microfabricated
-    structures. Characterization with ytterbium ions demonstrates uniform axial
-    trapping over a broad region, optical access approaching a numerical aperture
-    of 0.7, and a radial heating rate near 1.1 quanta per second at roughly 3 MHz.
-    Radial motional Ramsey coherence is approximately 95 ms. The trap also supports
-    preparation of a two-ion Bell state with high measured parity contrast, indicating
-    its potential for modular quantum-information experiments.
+    Monolithic three-dimensional (3D) Paul traps combine the high-precision microfabrication
+    of two-dimensional (2D) chip traps with the deep trapping potentials and low heating rates
+    characteristic of macroscopic Paul traps, which are typically manually assembled. However,
+    achieving low motional heating rates and optical access with a high numerical aperture (NA)
+    while maintaining the high radio-frequency (RF) voltages required for heavy ionic species,
+    such as Yb$^{+}$ and Ba$^{+}$, remains a significant technical challenge. In this work,
+    we present a segmented, monolithic 3D fused silica blade trap, featuring an ion-electrode
+    distance of 250 $μ$m with stable operation at high RF voltages. We benchmark the performance
+    of the trap using Yb$^{+}$ ions, demonstrating axially homogeneous trapping potentials for
+    200 $μ$m around the axial center of the trap, high multi-directional optical access (up
+    to 0.7 NA), and radial motional heating rate as low as 1.1 $\pm$ 0.1 quanta/s at radial
+    trap frequencies about 3 MHz near room temperature. Furthermore, we observe a motional Ramsey
+    coherence time, $T_{2}$, of around 95 ms for the radial center-of-mass mode. We demonstrate
+    a two-qubit gate fidelity of ${99.3}^{+ 0.7}_{- 1.5}$$\%$ with state preparation and measurement
+    correction. These results establish fused-silica monolithic blade traps as a scalable, modular
+    platform for quantum simulation, computation, metrology, and networking with heavy ionic
+    species.
   abstract_source: https://arxiv.org/abs/2603.16048
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{srq8-cgnt,
       title = {Monolithic segmented three-dimensional ion trap for quantum technology applications},
@@ -63,11 +71,11 @@
     https://journals.aps.org/prapplied/export/10.1103/srq8-cgnt?download=true&type=bibtex
   bibtex_status: publisher-export
 - id: thermal-reservoirs
-  title: Experimental realization of thermal reservoirs with tunable 
-    temperature in a trapped-ion spin-boson simulator
+  title: Experimental realization of thermal reservoirs with tunable temperature in a 
+    trapped-ion spin-boson simulator
   short_title: Engineering thermal reservoirs
-  summary: Bringing tunable temperature to a trapped-ion spin-boson simulator 
-    through engineered reservoirs.
+  summary: Bringing tunable temperature to a trapped-ion spin-boson simulator through 
+    engineered reservoirs.
   category: Quantum control
   authors:
     - V. So
@@ -91,17 +99,18 @@
       url: https://arxiv.org/abs/2511.08689
 
   abstract: >-
-    We demonstrate a way to engineer thermal environments for the vibrational modes
-    of trapped ions while varying bath temperature and damping strength independently.
-    The technique prepares bosonic thermal states and enables controlled studies
-    of dissipative spin-boson dynamics at finite temperature. In an electron-transfer
-    model, we observe how increasing the bath temperature broadens the transfer-rate
-    spectrum, suppressing transfer near small energy offsets while promoting it
-    at larger gaps. We then extend the approach to exciton transport assisted by
-    two vibrational modes and identify additional transfer pathways activated by
-    temperature and interference.
+    We propose and demonstrate an experimental scheme to engineer thermal baths with independently
+    tunable temperatures and dissipation rates for the motional modes of a trapped-ion system.
+    This approach enables robust thermal-state preparation and quantum simulations of open-system
+    dynamics in bosonic and spin-boson models at well-controlled finite temperatures. We benchmark
+    our protocol by experimentally realizing out-of-equilibrium dynamics of a charge-transfer
+    model at different temperatures. We observe that, when the process occurs at a higher temperature,
+    the transfer rate spectrum broadens, with reduced rates at small donor-acceptor energy gaps
+    and enhanced rates at large gaps. We then employ our scheme to study local-temperature effects
+    in a two-mode vibrationally assisted exciton transfer system, where we observe thermally
+    activated interference pathways for excitation transfer.
   abstract_source: https://arxiv.org/abs/2511.08689
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{mf8d-91ws,
       title = {Experimental Realization of Thermal Reservoirs with Tunable Temperature in a Trapped-Ion Spin-Boson Simulator},
@@ -121,11 +130,11 @@
     https://journals.aps.org/prl/export/10.1103/mf8d-91ws?download=true&type=bibtex
   bibtex_status: publisher-export
 - id: charge-exciton-transfer
-  title: Quantum simulation of charge and exciton transfer in multi-mode 
-    models using engineered reservoirs
+  title: Quantum simulation of charge and exciton transfer in multi-mode models using 
+    engineered reservoirs
   short_title: Simulating chemical dynamics
-  summary: Exploring charge and exciton transfer with multi-mode models and 
-    engineered reservoirs.
+  summary: Exploring charge and exciton transfer with multi-mode models and engineered 
+    reservoirs.
   category: Quantum simulation
   authors:
     - V. So
@@ -153,18 +162,25 @@
       url: https://arxiv.org/abs/2505.22729
 
   abstract: >-
-    We experimentally simulate molecular charge and exciton transfer using a trapped-ion
-    realization of a two-mode linear vibronic-coupling model. Controllable spin-phonon
-    interactions represent electronic and vibrational degrees of freedom, while
-    engineered reservoirs supply dissipation for both vibrational modes. By tuning
-    the coupling strengths, the simulator crosses between charge-transfer and vibrationally
-    assisted exciton-transfer regimes. Degenerate vibrational modes can enhance
-    transfer at large energy differences, whereas nondegenerate modes enable additional
-    slower pathways that change the dependence on the donor-acceptor energy gap.
-    These results illustrate how even one extra vibration modifies interference
-    among transport channels in an open quantum system.
+    Quantum simulation offers a route to study open-system molecular dynamics in non-perturbative
+    regimes by programming the interactions among electronic, vibrational, and environmental
+    degrees of freedom on similar energy scales. Trapped-ion systems possess this capability,
+    with their native spins, phonons, and tunable dissipation integrated within a single platform.
+    Here, we demonstrate an open-system quantum simulation of charge and exciton transfer in
+    a multi-mode linear vibronic coupling model. Employing tailored spin-phonon interactions
+    alongside reservoir engineering techniques, we emulate a system with two dissipative vibrational
+    modes coupled to donor and acceptor electronic sites and follow its non-equilibrium dynamics.
+    We continuously tune the system from the charge transfer (CT) regime to the vibrationally
+    assisted exciton transfer (VAET) regime by controlling the vibronic coupling strengths.
+    We find that degenerate modes enhance CT and VAET rates at large energy gaps, while non-degenerate
+    modes activate slow-mode pathways that reduce the energy-gap dependence, thus enlarging
+    the window for efficient transfer. These results show that the presence of one additional
+    vibration introduces interfering vibrationally assisted pathways and reshapes non-perturbative
+    quantum excitation transfer. Our work establishes a scalable and hardware-efficient route
+    to simulating chemically relevant, many-mode vibronic processes with engineered environments,
+    guiding the design of next-generation organic photovoltaics and molecular electronics.
   abstract_source: https://arxiv.org/abs/2505.22729
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{So2026Multimode,
       author = {So, Visal and Duraisamy Suganthi, Midhuna and Zhu, Mingjian and Menon, Abhishek and Tomaras, George and Zhuravel, Roman and Pu, Han and Wolynes, Peter G. and Onuchic, José N. and Pagano, Guido},
@@ -179,11 +195,11 @@
   bibtex_source: https://www.nature.com/articles/s41467-025-67116-6
   bibtex_status: reconstructed-from-official-metadata
 - id: ytterbium-spectroscopy
-  title: Precision measurement of lifetime and branching ratios of 4f¹³5d6s 
-    ¹[5/2]₅/₂ state in Yb⁺ ions
+  title: Precision measurement of lifetime and branching ratios of 4f¹³5d6s ¹[5/2]₅/₂ 
+    state in Yb⁺ ions
   short_title: Precision spectroscopy of Yb⁺ ions
-  summary: Measuring the lifetime and branching ratios of an excited state in 
-    singly ionized ytterbium.
+  summary: Measuring the lifetime and branching ratios of an excited state in singly 
+    ionized ytterbium.
   category: Precision spectroscopy
   authors:
     - M. Duraisamy Suganthi
@@ -203,17 +219,22 @@
       url: https://arxiv.org/abs/2506.04320
 
   abstract: >-
-    We use precision spectroscopy and time-resolved measurements to characterize
-    a high-lying excited state of singly ionized ytterbium-172. Excitation from
-    metastable states reveals an unexpectedly long lifetime of 37.9(9) microseconds,
-    sufficient to resolve coherent Rabi oscillations and motional sidebands. Combining
-    coherent population control, state-selective detection, heralding, and optical
-    pumping, we determine the decay fractions to three lower states and constrain
-    additional decay channels. We also measure a Landé g-factor and improve the
-    precision of a related metastable-state branching ratio. The results supply
-    spectroscopic benchmarks relevant to ytterbium-based quantum-control protocols.
+    We report spectroscopic and time-resolved experimental observations to characterize the
+    $[{\rm Xe}]4f^{13}(^2F^{o}_{5/2}){5d6s(}{^1\!D}){^{1}[5/2]^{o}_{5/2}}$ state in $^{172}$Yb$^+$
+    ions. We access this state from the metastable $4f^{14}5d (^2D_{3/2,5/2})$ manifold and
+    observe an unexpectedly long lifetime of $\tau=37.9(9) \,\mu$s that allows visible Rabi
+    oscillations and resolved-sideband spectroscopy. Using a combination of coherent population
+    dynamics, high-fidelity detection and heralded state preparation, and optical pumping methods,
+    we measure the branching ratios to the $^{2}D_{3/2}$, $^2D_{5/2}$, $^2S_{1/2}$ states to
+    be 0.359(2), 0.639(2), 0.0023(16), respectively. The branching ratio to the $4f^{13}6s^{2}({^2F}_{7/2})$
+    is compatible with zero within our experimental resolution. We also report measurements
+    of its Landé g-factor and the branching ratio of the ${^{2}{D}_{5/2}}$ to ${^{2}{S}_{1/2}}$
+    decay in $^{172}$Yb$^+$ to be 0.188(3), improving its relative uncertainty by an order of
+    magnitude. Our measurements pave the way to a better understanding of the atomic structure
+    of Yb$^+$ ions, which still lacks accurate numerical descriptions, and the use of high-lying
+    excited states for partial detection and qubit manipulation in the omg architecture.
   abstract_source: https://arxiv.org/abs/2506.04320
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{mwwc-kng1,
       title = {Precision measurement of lifetime and branching ratios of the $4{f}^{13}5d6{s}^{1}{[5/2]}_{5/2}$ state in ${\mathrm{Yb}}^{+}$ ions},
@@ -233,11 +254,11 @@
     https://journals.aps.org/prresearch/export/10.1103/mwwc-kng1?download=true&type=bibtex
   bibtex_status: publisher-export
 - id: delocalized-excitation-transfer
-  title: Delocalized excitation transfer in open quantum systems with 
-    long-range interactions
+  title: Delocalized excitation transfer in open quantum systems with long-range 
+    interactions
   short_title: Delocalized excitation transfer
-  summary: Studying excitation transfer in open quantum systems with 
-    long-range interactions.
+  summary: Studying excitation transfer in open quantum systems with long-range 
+    interactions.
   category: Quantum simulation
   authors:
     - D. F. Padilla
@@ -257,17 +278,24 @@
       url: https://arxiv.org/abs/2502.04383
 
   abstract: >-
-    We study energy-transfer processes in an open quantum system whose excitations
-    can spread over several interacting sites. A long-range Frenkel-exciton model
-    is coupled to a damped collective vibrational mode to represent donor and acceptor
-    structures analogous to molecular light-harvesting systems. Certain delocalized
-    excitonic states yield particularly high transport rates while retaining entanglement
-    during dissipative transfer. The analysis explores the effects of static disorder,
-    noise, temperature, and the number and arrangement of molecular subunits. A
-    proposed trapped-ion realization provides a path to testing these transport
-    mechanisms in parameter regimes that are difficult to model classically.
+    The interplay between coherence and system-environment interactions is at the basis of a
+    wide range of phenomena, from quantum information processing to charge and energy transfer
+    in molecular systems, biomolecules, and photochemical materials. In this work, we use a
+    Frenkel exciton model with long-range interacting qubits coupled to a damped collective
+    bosonic mode to investigate vibrationally assisted transfer processes in donor-acceptor
+    systems featuring internal substructures analogous to light-harvesting complexes. We find
+    that certain delocalized excitonic states maximize the transfer rate and that the entanglement
+    is preserved during the dissipative transfer over a wide range of parameters. We investigate
+    the reduction in transfer caused by static disorder, white noise, and finite temperature
+    and study how transfer efficiency scales as a function of the number of dimerized monomers
+    and the component number of each monomer, finding which excitonic states lead to optimal
+    transfer. Finally, we provide a realistic experimental setting to realize this model in
+    analog trapped-ion quantum simulators. Analog quantum simulation of systems comprising many
+    and increasingly complex monomers could offer valuable insights into the design of light-harvesting
+    materials, particularly in the non-perturbative intermediate parameter regime examined in
+    this study, where classical simulation methods are resource-intensive.
   abstract_source: https://arxiv.org/abs/2502.04383
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{bxwl-sbsn,
       title = {Delocalized Excitation Transfer in Open Quantum Systems with Long-Range Interactions},
@@ -287,11 +315,11 @@
     https://journals.aps.org/prxquantum/export/10.1103/bxwl-sbsn?download=true&type=bibtex
   bibtex_status: publisher-export
 - id: dissipation-entanglement
-  title: Dissipation-assisted steady-state entanglement engineering based on 
-    electron transfer models
+  title: Dissipation-assisted steady-state entanglement engineering based on electron 
+    transfer models
   short_title: Dissipation-assisted entanglement
-  summary: Exploring steady-state entanglement engineering through electron 
-    transfer models and dissipation.
+  summary: Exploring steady-state entanglement engineering through electron transfer 
+    models and dissipation.
   category: Quantum control
   authors:
     - M. Zhu
@@ -309,17 +337,20 @@
       url: https://arxiv.org/abs/2504.02101
 
   abstract: >-
-    We propose dissipative control protocols in trapped-ion simulators that use
-    electron-transfer-inspired spin-boson interactions to stabilize entangled states.
-    Controlled phonon displacements and sympathetic-cooling-induced damping let
-    a target system relax toward engineered spin and boson steady states. Analytical
-    arguments clarify the underlying dynamics, and realistic parameter choices support
-    protocols for multipartite W states of qubits or bosonic modes. The approach
-    also extends to Dicke states with adjustable excitation number. We discuss how
-    experimental imperfections and noise could affect an implementation in current
-    ion-trap platforms.
+    We propose a series of dissipation-assisted entanglement generation protocols that can be
+    implemented on a trapped-ion quantum simulator. Our approach builds on the single-site molecular
+    electron transfer (ET) model recently realized in the experiment [So et al. Sci. Adv. 10,
+    eads8011 (2024)]. This model leverages spin-dependent boson displacement and dissipation
+    controlled by sympathetic cooling. We show that, when coupled to external degrees of freedom,
+    the ET model can be used as a dissipative quantum control mechanism, enabling the precise
+    tailoring of both spin and phonon steady state of a target sub-system. We derive simplified
+    analytical formalisms that offer intuitive insights into the dissipative dynamics. Using
+    realistic interactions in a trapped-ion system, we develop a protocol for generating $N$-qubit
+    and $N$-boson $W$ states. Additionally, we generalize this protocol to realize generic $N$-qubit
+    Dicke states with tunable excitation numbers. Finally, we outline a realistic experimental
+    setup to implement our schemes in the presence of noise sources.
   abstract_source: https://arxiv.org/abs/2504.02101
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{9sr4-3jz2,
       title = {Dissipation-assisted steady-state entanglement engineering based on electron transfer models},
@@ -339,11 +370,11 @@
     https://journals.aps.org/pra/export/10.1103/9sr4-3jz2?download=true&type=bibtex
   bibtex_status: publisher-export
 - id: electron-transfer
-  title: Trapped-ion quantum simulation of electron transfer models with 
-    tunable dissipation
+  title: Trapped-ion quantum simulation of electron transfer models with tunable 
+    dissipation
   short_title: Electron transfer with tunable dissipation
-  summary: Using trapped ions to investigate electron transfer models with 
-    engineered dissipation.
+  summary: Using trapped ions to investigate electron transfer models with engineered 
+    dissipation.
   category: Quantum simulation
   authors:
     - V. So
@@ -367,17 +398,19 @@
       url: https://arxiv.org/abs/2405.10368
 
   abstract: >-
-    We realize a controllable model of molecular electron transfer with a crystal
-    containing two ionic species. One set of ion states represents donor and acceptor
-    electronic configurations, collective vibrations represent molecular motion,
-    and sympathetic cooling creates an adjustable dissipative environment. The experiment
-    independently varies energy offsets, vibronic interactions, electronic coupling,
-    and relaxation strength. By tracking the electronic population over time, we
-    measure transfer dynamics and reaction rates in several regimes, providing a
-    test platform for quantum models of energy conversion and excitation transport
-    relevant to molecular and light-harvesting materials.
+    Electron transfer is at the heart of many fundamental physical, chemical, and biochemical
+    processes essential for life. The exact simulation of these reactions is often hindered
+    by the large number of degrees of freedom and by the essential role of quantum effects.
+    Here, we experimentally simulate a paradigmatic model of molecular electron transfer using
+    a multispecies trapped-ion crystal, where the donor-acceptor gap, the electronic and vibronic
+    couplings, and the bath relaxation dynamics can all be controlled independently. By manipulating
+    both the ground-state and optical qubits, we observe the real-time dynamics of the spin
+    excitation, measuring the transfer rate in several regimes of adiabaticity and relaxation
+    dynamics. Our results provide a testing ground for increasingly rich models of molecular
+    excitation transfer processes that are relevant for molecular electronics and light-harvesting
+    systems.
   abstract_source: https://arxiv.org/abs/2405.10368
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @article{So2024ElectronTransfer,
       author = {So, Visal and Duraisamy Suganthi, Midhuna and Menon, Abhishek and Zhu, Mingjian and Zhuravel, Roman and Pu, Han and Wolynes, Peter G. and Onuchic, José N. and Pagano, Guido},
@@ -392,8 +425,7 @@
   bibtex_source: https://www.science.org/doi/10.1126/sciadv.ads8011
   bibtex_status: reconstructed-from-official-metadata
 - id: programmable-polarons
-  title: Programmable polaron models and tomography in trapped-ion quantum 
-    simulators
+  title: Programmable polaron models and tomography in trapped-ion quantum simulators
   short_title: Programmable polaron models
   summary: Polaron models and tomography in a trapped-ion quantum simulator.
   category: Quantum simulation
@@ -413,17 +445,27 @@
       url: https://arxiv.org/abs/2610.18970
 
   abstract: >-
-    We present a blueprint for simulating polarons, excitations dressed by lattice
-    vibrations, in a programmable trapped-ion device. Spin-phonon interactions can
-    reproduce both short-range Holstein-type and longer-range Fröhlich-type couplings.
-    To identify strongly dressed quasiparticles, the proposed measurements use displaced
-    Green functions to extract energy bands, binding effects, and vibrational sidebands.
-    Spatial measurements and ancilla-assisted correlation probes then reveal how
-    phonon dressing builds around an excitation and evolves in time. The proposal
-    connects quasiparticle spectra to their microscopic spatial structure across
-    different interaction ranges.
+    Strong coupling between mobile charge carriers or excitons and lattice vibrations gives
+    rise to polarons: quasiparticles formed by charge carriers dressed by a cloud of phonon
+    excitations. Polaron formation determines transport properties of systems ranging from transition-metal
+    oxides and organic semiconductors to light-harvesting complexes. In excitonic systems that
+    admit a hard-core boson description, mapping the excitations to pseudospins provides a natural
+    framework for studying polaron physics, including the nonperturbative regime in which hopping
+    amplitudes, phonon energies, and coupling strengths are comparable. Here, we propose a trapped-ion
+    blueprint for realizing spin-phonon Hamiltonians with programmable spatial coupling between
+    excitation density and phonon displacements, encompassing local Holstein and long-range
+    Fröhlich-type interactions. To access strongly dressed quasiparticles whose bare spectral
+    weight is suppressed, we introduce displaced Green's functions implemented through spin-dependent
+    phonon displacements. Their spectral response reveals the polaron band spectrum, including
+    binding energies and phonon-excitation sidebands, while spatially resolved measurements
+    probe the structure of the phonon dressing cloud, providing a route to polaron tomography.
+    We further complement this spectroscopy with direct and ancilla-assisted measurements of
+    spin-phonon correlations that track the coupled dynamics of the excitation and its environment.
+    These approaches connect the emergent quasiparticle spectrum to the microscopic buildup
+    of its dressing cloud, enabling controlled studies of how the spatial range of coupling
+    shapes polaron formation and mobility.
   abstract_source: https://arxiv.org/abs/2610.18970
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @misc{Marijanovic2026Polaron,
       author = {Marijanovic, Filip and Bhattacharya, Utso and Menon, Abhishek and So, Visal and Pagano, Guido and Demler, Eugene},
@@ -437,11 +479,11 @@
   bibtex_source: https://arxiv.org/abs/2610.18970
   bibtex_status: reconstructed-from-official-metadata
 - id: correlated-pair-creation
-  title: Correlated pair creation with positive- and negative-frequency 
-    oscillators in a trapped-ion quantum simulator
+  title: Correlated pair creation with positive- and negative-frequency oscillators in a 
+    trapped-ion quantum simulator
   short_title: Correlated pair creation
-  summary: Investigating correlated pair creation with positive- and 
-    negative-frequency oscillators.
+  summary: Investigating correlated pair creation with positive- and negative-frequency 
+    oscillators.
   category: Quantum simulation
   authors:
     - V. So
@@ -457,17 +499,23 @@
       url: https://arxiv.org/abs/2610.12579
 
   abstract: >-
-    We investigate how reversing the effective frequency sign of one motional mode
-    changes the dynamics of a two-mode spin-boson simulator. With frequencies of
-    equal sign, resonant processes exchange excitations between modes; opposite
-    signs instead favor the correlated generation of pairs. In a dispersive regime,
-    this becomes a two-mode parametric-amplification problem with oscillatory, critical,
-    and unstable amplification regions. The resulting evolution produces quadrature
-    squeezing and motional entanglement. Coherent preparation and postselection
-    of the spin can additionally yield multipartite entanglement and non-Gaussian
-    bosonic states, using parameters compatible with trapped-ion experiments.
+    Spin-dependent forces enable independent control over the effective frequencies of bosonic
+    motional modes and their coupling strengths to spins in trapped-ion spin-boson quantum simulators.
+    We show that the relative signs of these effective frequencies provide an important programmable
+    resource for engineering distinct multimode dynamics. Focusing on a two-mode quantum Rabi
+    model, changing the frequencies of the two modes from the same sign to opposite signs reorganizes
+    the resonance structure of the spin-mediated bosonic interaction, converting the dominant
+    resonant process from excitation exchange to correlated pair creation. In the dispersive
+    regime, the resulting effective interaction realizes a two-mode parametric amplifier with
+    stable oscillatory, critical, and exponentially amplifying regimes separated by a spin-dependent
+    instability threshold. Across these regimes, the dynamics generate collective-quadrature
+    squeezing and bipartite motional entanglement. Preparing the spin in a coherent superposition
+    further allows different spin components to experience distinct stability regimes, generating
+    tripartite spin-boson entanglement, while spin postselection can coherently combine the
+    conditional bosonic branches to generate non-Gaussian entangled bosonic states. Finally,
+    we outline an implementation using parameters within reach of current trapped-ion platforms.
   abstract_source: https://arxiv.org/abs/2610.12579
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @misc{So2026CorrelatedPairCreation,
       author = {So, Visal and Zhu, Mingjian and Pu, Han and Pagano, Guido},
@@ -481,19 +529,16 @@
   bibtex_source: https://arxiv.org/abs/2610.12579
   bibtex_status: reconstructed-from-official-metadata
 - id: trapped-ion-fundamentals
-  title: Fundamentals of trapped ions and quantum simulation of chemical 
-    dynamics
+  title: Fundamentals of trapped ions and quantum simulation of chemical dynamics
   short_title: Fundamentals of trapped-ion simulation
-  summary: An introduction to trapped ions and their use in simulating 
-    chemical dynamics.
+  summary: An introduction to trapped ions and their use in simulating chemical dynamics.
   category: Book chapters and proceedings
   authors:
     - G. Pagano
     - W. Adamczyk
     - V. So
   year: 2025
-  venue: Proceedings of the International School of Physics “Enrico Fermi”, 
-    Course 214
+  venue: Proceedings of the International School of Physics “Enrico Fermi”, Course 214
   type: proceedings
   selected: false
   note: “Quantum Computers and Simulators with Atoms” · Varenna, July 2024 · 
@@ -502,17 +547,18 @@
     - label: arXiv
       url: https://arxiv.org/abs/2505.20412
   abstract: >-
-    This pedagogical review introduces trapped-ion quantum technology, beginning
-    with confinement in radio-frequency traps, qubit encodings, and coherent laser-ion
-    interactions. It describes how spin-dependent optical forces enable high-quality
-    quantum gates and analog or digital simulations of interacting spins and coupled
-    spin-boson systems. The discussion then turns to chemical dynamics, explaining
-    how vibrational and electronic degrees of freedom can be emulated with trapped
-    ions to explore excitation and charge transfer. The authors conclude with research
-    directions and engineering challenges for larger, more capable ion-based quantum
-    simulators.
+    Trapped atomic ions are among the most advanced platforms for quantum simulation, computation,
+    and metrology, offering long coherence times and precise, individual control over both internal
+    and motional degrees of freedom. In this review, we present a pedagogical introduction to
+    trapped-ion systems, covering the physics of ion trapping, qubit encodings, and laser-ion
+    interactions. We explain how spin-dependent forces generated by light fields enable both
+    analog and digital quantum simulations of spin and spin-boson models, as well as high-fidelity
+    quantum logic gates. We then highlight an emerging frontier in the simulation of chemical
+    dynamics, summarizing recent experiments that demonstrate the capability of trapped ions
+    to simulate vibronic models and excitation-transfer processes. Finally, we outline future
+    directions in quantum simulation and discuss open challenges in scaling up trapped-ion architectures.
   abstract_source: https://arxiv.org/abs/2505.20412
-  abstract_status: paraphrase-of-public-abstract
+  abstract_status: exact-author-submitted-arxiv-abstract
   bibtex: |
     @misc{Pagano2025TrappedIonFundamentals,
       author = {Pagano, Guido and Adamczyk, Wojciech and So, Visal},
