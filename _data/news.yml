@@ -8,7 +8,7 @@
     - label: Endres Lab
       url: https://www.endreslab.com/
 
-- date_label: 2025–2026
+- date_label: May 2026
   title: H. A. Wilson Research Award
   summary: My dissertation was recognized as the most outstanding Ph.D. thesis in Rice University’s Department of Physics and Astronomy for the 2025–2026 academic year.
   featured: true
@@ -25,7 +25,7 @@
     - label: Read the thesis
       url: https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link
 
-- date_label: 2025
+- date_label: Nov 2025
   title: Quantum Talents Symposium, Munich
   summary: Presented an invited talk as a finalist, recognizing work on quantum simulation of open-system chemical dynamics using trapped ions.
   featured: false
