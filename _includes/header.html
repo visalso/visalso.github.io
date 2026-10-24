@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Visal So, home">
+      {% assign brand_asset = site.static_files | where: 'path', site.brand_image | first %}
+      <img class="site-brand__image"
+           src="{% if brand_asset %}{{ site.brand_image | relative_url }}{% else %}{{ site.portrait | relative_url }}{% endif %}"
+           alt="" width="42" height="42" decoding="async">
+      <span>{{ site.title | escape }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for item in site.navigation %}
+      <a href="{{ item.url | relative_url }}"{% if page.nav == item.id %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>
+      {% endfor %}
+    </nav>
+    <button class="theme-toggle" type="button" data-theme-toggle hidden aria-label="Switch color theme">
+      <span aria-hidden="true">◐</span><span data-theme-label>Theme</span>
+    </button>
+  </div>
+</header>
+
