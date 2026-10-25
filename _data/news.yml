@@ -59,6 +59,20 @@
   summary: I was selected as one of only two recipients of the Henry F. and Margaret Dunlap Fellowship in recognition of my academic achievements and research contributions in the Department of Physics and Astronomy at Rice University. This honor reflects my dedication to academic excellence, scientific inquiry, and advancing research in physics.
   featured: true
 
+- date_label: Feb 2025
+  title: Celebrating 50 Years of Discovery
+  summary: >-
+  I was featured in "Milestones in Science," celebrating
+  50 years of scientific discovery at Rice University, alongside
+  pioneering achievements such as Prof. Randy Hulet's realization of
+  the first Bose–Einstein condensate with attractive interactions
+  in lithium-7 and other breakthroughs from the Weiss School of
+  Natural Sciences.
+  featured: true
+  links:
+    - label: Read the article
+      url: https://naturalsciences.rice.edu/50-years-discovery-rice/milestones-science-feb-25
+
 - date_label: Jan 2025
   title: Invited Talk at Rice Quantum Initiative Seminar
   summary: I gave an invited talk on trapped-ion quantum simulation of electron transfer models with tunable dissipation.
