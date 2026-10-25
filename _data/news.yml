@@ -8,6 +8,11 @@
     - label: Endres Lab
       url: https://www.endreslab.com/
 
+- date_label: Jun 2026
+  title: Contributed Talk at DAMOP 2026
+  summary: I presented a contributed talk at the 57th Annual Meeting of the American Physical Society's Division of Atomic, Molecular and Optical Physics (DAMOP 2026) on June 2, 2026, in Providence, Rhode Island. In my presentation, I introduced our novel experimental approach to engineering finite-temperature bosonic reservoirs by combining independently controlled heating and cooling processes in a trapped-ion system. This technique enables independent tuning of the effective reservoir temperature and dissipation rate, providing a versatile framework for investigating open quantum systems and simulating nonequilibrium quantum dynamics.
+  featured: false
+
 - date_label: May 2026
   title: H. A. Wilson Research Award
   summary: My dissertation was recognized as the most outstanding Ph.D. thesis in Rice University’s Department of Physics and Astronomy for the 2025–2026 academic year.
@@ -53,6 +58,11 @@
   links:
     - label: Watch the talk
       url: https://www.youtube.com/watch?v=jxOFuNQV0l0
+
+- date_label: Jun 2025
+  title: Contributed Talk at DAMOP 2025
+  summary: I presented a contributed talk at the 56th Annual Meeting of the American Physical Society’s Division of Atomic, Molecular and Optical Physics (DAMOP 2025) on June 17, 2025, in Portland, Oregon. My presentation explored the role of multiple vibrational modes in electron-transfer dynamics within vibronically coupled molecular systems. Using a trapped-ion quantum simulator, we investigated how the interplay between molecular and environmental vibrational modes influences transfer rates and pathways.
+  featured: false
       
 - date_label: May 2025
   title: Henry F. and Margaret Dunlap Fellowship
