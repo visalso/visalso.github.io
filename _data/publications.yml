@@ -384,7 +384,7 @@
     dissipation
   short_title: Electron transfer with tunable dissipation
   summary: >-
-    Investigating electron-transfer dynamics using two atomic species,
+    Programming electron-transfer dynamics using two atomic species,
     with one emulating the molecular system while the other provides engineered dissipation.
   category: Quantum simulation
   authors:
