@@ -94,6 +94,9 @@
   venue: Physical Review Letters 137, 050604
   type: journal
   thumbnail: /assets/PRL_finitetemp.png
+  media_links:
+    - label: Rice News & summary video
+      url: https://news.rice.edu/news/2026/new-controls-allow-researchers-incorporate-thermal-effects-quantum-simulation
   selected: true
   selected_order: 3
   links:
@@ -159,6 +162,11 @@
   venue: Nature Communications 17, 438
   type: journal
   thumbnail: /assets/multimode.png
+  media_links:
+    - label: Rice News & summary video
+      url: https://news.rice.edu/news/2026/quantum-simulator-sheds-light-how-nature-moves-energy-systems-photosynthesis-and-solar
+    - label: QSim talk
+      url: https://www.youtube.com/watch?v=jxOFuNQV0l0
   selected: true
   selected_order: 2
   note: Featured in the Ultrafast Chemistry collection
@@ -283,6 +291,11 @@
   type: journal
   selected: false
   thumbnail: /assets/bellpair_transfer.png
+  media_links:
+    - label: Rice News
+      url: https://news.rice.edu/news/2025/quantum-leap-entangled-states-enhance-energy-transfer-models-molecular-systems
+    - label: Phys.org
+      url: https://phys.org/news/2025-10-entangled-states-energy-molecular.html
   links:
     - label: Journal
       url: https://journals.aps.org/prxquantum/abstract/10.1103/bxwl-sbsn
@@ -406,6 +419,11 @@
   venue: Science Advances 10, eads8011
   type: journal
   thumbnail: /assets/electrontransfer.png
+  media_links:
+    - label: Rice News
+      url: https://news.rice.edu/news/2024/rice-researchers-take-significant-leap-forward-quantum-simulation-molecular-electron
+    - label: Milestones in Science
+      url: https://naturalsciences.rice.edu/news/visal-so-advances-electron-transfer-research-trapped-ions
   selected: true
   selected_order: 1
   links:
