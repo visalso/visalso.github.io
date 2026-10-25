@@ -137,9 +137,9 @@
   title: Quantum simulation of charge and exciton transfer in multi-mode models using 
     engineered reservoirs
   short_title: Excitation transfer in multi-mode vibronic systems
-  summary: Using trapped ions to investigate how multiple vibrational modes influence
-  charge and exciton transfer in open quantum systems, advancing toward
-  more realistic quantum simulations of chemical dynamics.
+  summary: Using trapped ions to investigate how multiple vibrational modes influence 
+  charge and exciton transfer in open quantum systems, advancing toward more realistic
+  quantum simulations of chemical dynamics.
   category: Quantum simulation
   authors:
     - V. So
