@@ -26,7 +26,7 @@
       url: https://drive.google.com/file/d/1TURIovFBtQL3cR2Uf5lg0uzMgIe-XHmn/view?usp=drive_link
 
 - date_label: Nov 2025
-  title: Quantum Talents Symposium
+  title: Invited Talk at Quantum Talents Symposium
   summary: I was selected as one of Quantum Talents and presented my work on quantum simulation of open-system chemical dynamics using trapped ions at the Max Planck Institute of Quantum Optics in Munich, Germany.
   featured: false
   links:
@@ -36,10 +36,10 @@
       url: https://www.mcqst.de/quantum-talents-munich/quantum-talents-finalists-2025.html
     - label: Slides (PDF)
       url: /munich_qts_2025.pdf
-      internal: true
+      internal: false
 
 - date_label: Sep 2025
-  title: Texas Quantum Summit
+  title: Poster at Texas Quantum Summit
   summary: I presented my work on “Open-System Quantum Simulation of Chemical Dynamics with Trapped Ions” at the first Texas Quantum Summit, held September 19–20 at Texas A&M University. The poster appears on page 30 of the collection.
   featured: false
   links:
@@ -47,7 +47,7 @@
       url: https://drive.google.com/file/d/11Ts28LW5olm5yQ1Ygth8aIDU3UXBM0eu/view
 
 - date_label: Aug 2025
-  title: QSim Conference
+  title: Contributed Talk at QSim Conference
   summary: I contributed a talk on quantum simulation of charge and exciton transfer in multi-mode models with engineered reservoirs on August 8, 2025, at the conference hosted by the Institute for Robust Quantum Simulation in New York City.
   featured: false
   links:
@@ -57,10 +57,10 @@
 - date_label: May 2025
   title: Henry F. and Margaret Dunlap Fellowship
   summary: I was selected as one of only two recipients of the Henry F. and Margaret Dunlap Fellowship in recognition of my academic achievements and research contributions in the Department of Physics and Astronomy at Rice University. This honor reflects my dedication to academic excellence, scientific inquiry, and advancing research in physics.
-  featured: false
+  featured: true
 
 - date_label: Jan 2025
-  title: Rice Quantum Initiative Seminar
+  title: Invited Talk at Rice Quantum Initiative Seminar
   summary: I gave an invited talk on trapped-ion quantum simulation of electron transfer models with tunable dissipation.
   featured: false
   links:
