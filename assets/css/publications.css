@@ -33,3 +33,16 @@
 @media (pointer: coarse) {
   .publication-filter { min-height: 44px; }
 }
+
+/* Related news and talks below journal citations */
+.paper__media-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.paper__media-links .text-link {
+  font-size: .8rem;
+}
