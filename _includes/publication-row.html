@@ -113,6 +113,16 @@
   </p>
   {% if paper.corresponding_author %}<p class="paper__note muted">{{ paper.corresponding_author | escape }}: corresponding author.</p>{% endif %}
   {% if paper.note %}<p class="paper__note">{% if paper.note_url %}<a href="{{ paper.note_url | escape }}">{{ paper.note | escape }}</a>{% else %}{{ paper.note | escape }}{% endif %}</p>{% endif %}
+  {% if paper.media_links %}
+  <div class="paper__media-links actions">
+    {% for link in paper.media_links %}
+      <a class="text-link" href="{{ link.url | escape }}">
+        {{ link.label | escape }}
+        <span aria-hidden="true">↗</span>
+      </a>
+    {% endfor %}
+  </div>
+  {% endif %}
   <div class="paper__links actions" aria-label="Links for {{ paper.short_title | escape }}">
     {% if has_abstract %}
     <button class="button button--secondary button--small" type="button" data-paper-toggle aria-controls="abstract-{{ paper.id | escape }}" aria-expanded="false" hidden>Abstract<span class="sr-only">: {{ paper.short_title | escape }}</span><span class="paper__toggle-icon" aria-hidden="true">+</span></button>
