@@ -280,6 +280,7 @@
   venue: PRX Quantum 6, 040301
   type: journal
   selected: false
+  thumbnail: /assets/bellpair_transfer.png
   links:
     - label: Journal
       url: https://journals.aps.org/prxquantum/abstract/10.1103/bxwl-sbsn
