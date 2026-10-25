@@ -339,6 +339,7 @@
   sort_date: "2025-07-21"
   venue: Physical Review A 112, 012617
   type: journal
+  thumbnail: /assets/electrontransfer_state.png
   selected: false
   links:
     - label: Journal
