@@ -1,5 +1,17 @@
 {% assign paper = include.paper %}
 <article class="research-card">
+
+  {% if paper.thumbnail %}
+    <a class="research-card__thumbnail"
+       href="{{ '/publications/' | relative_url }}#{{ paper.id | escape }}"
+       aria-label="View {{ paper.short_title | escape }}">
+
+      <img src="{{ paper.thumbnail | relative_url }}"
+           alt="{{ paper.thumbnail_alt | default: paper.short_title | escape }}"
+           loading="lazy"
+           decoding="async">
+    </a>
+  {% endif %}
   <span class="research-card__tag">{{ paper.category | escape }}</span>
   <h3 class="research-card__title"><a href="{{ '/publications/' | relative_url }}#{{ paper.id | escape }}">{{ paper.short_title | escape }}</a></h3>
   <p class="research-card__summary">{{ paper.summary | escape }}</p>
