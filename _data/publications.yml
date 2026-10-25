@@ -556,6 +556,7 @@
   venue: Proceedings of the International School of Physics “Enrico Fermi”, Course 214
   type: proceedings
   selected: false
+  thumbnail: /assets/omg_architecture.png
   note: “Quantum Computers and Simulators with Atoms” · Varenna, July 2024 · 
     arXiv:2505.20412
   links:
