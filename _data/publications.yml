@@ -219,6 +219,7 @@
   sort_date: "2025-12-02"
   venue: Physical Review Research 7, 043242
   type: journal
+  thumbnail: /assets/spectroscopy.png
   selected: false
   links:
     - label: Journal
@@ -455,6 +456,7 @@
   sort_date: "2026-10-13"
   venue: arXiv:2610.18970
   type: preprint
+  thumbnail: /assets/polaron.png
   selected: false
   links:
     - label: arXiv
@@ -510,6 +512,7 @@
   sort_date: "2026-10-08"
   venue: arXiv:2610.12579
   type: preprint
+  thumbnail: /assets/paircreation.png
   selected: false
   links:
     - label: arXiv
