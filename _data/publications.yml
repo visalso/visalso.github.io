@@ -613,3 +613,63 @@
     }
   bibtex_source: https://arxiv.org/abs/2505.20412
   bibtex_status: reconstructed-from-official-metadata
+- id: structured-bath-entanglement
+  title: Generating Multipartite Entanglement via Structured-Bath Engineering
+  short_title: Multipartite entanglement via structured baths
+  summary: Engineering structured reservoirs to dissipatively generate genuine
+    multipartite entanglement through strong symmetries and temporal bath correlations.
+  category: Quantum simulation
+  authors:
+    - B. Debecker
+    - P. Westhoff
+    - V. So
+    - S. Paeckel
+    - G. Pagano
+    - J. Martin
+    - M. Moroder
+    - F. Damanet
+  year: 2026
+  sort_date: "2026-10-28"
+  venue: arXiv:2610.38807
+  type: preprint
+  thumbnail: /assets/structured-bath.png
+  selected: false
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2610.38807
+
+  abstract: >-
+    We investigate the dissipative preparation of genuinely multipartite-entangled
+    steady states using independent local reservoirs, exploiting strong Abelian
+    symmetries together with temporal correlations in the environment.
+    For interacting Ising chains, we find that reservoirs with flat spectra
+    suppress correlations along the Ising axis exponentially across a broad
+    range of system-environment interactions. Introducing spectral structure
+    into the reservoirs circumvents this limitation, allowing temporal
+    correlations to produce spatial correlations that are transformed into
+    multipartite quantum entanglement by the system's strong symmetry.
+    In the weak-coupling regime, the symmetry permits an exact construction
+    of steady states through an associated classical problem, even for
+    arbitrary Ising interactions and nonquadratic generators. This framework
+    establishes a precise relationship between classical distinguishability
+    and quantum entanglement. By tailoring the environmental spectrum,
+    correlations can be extended over larger distances, enabling GHZ-like
+    states to emerge from initially separable configurations. We examine
+    the mechanism beyond weak-coupling approximations using exact Markovian
+    embeddings and tensor-network calculations, and discuss implementations
+    in superconducting and trapped-ion systems, including a trapped-ion
+    proposal based on sympathetic cooling of motional modes.
+  abstract_source: https://arxiv.org/abs/2610.38807
+  abstract_status: paraphrased-from-official-arxiv-abstract
+  bibtex: |
+    @misc{Debecker2026MultipartiteEntanglement,
+      author = {Debecker, Baptiste and Westhoff, Philipp and So, Visal and Paeckel, Sebastian and Pagano, Guido and Martin, John and Moroder, Mattia and Damanet, François},
+      title = {Generating Multipartite Entanglement via Structured-Bath Engineering},
+      year = {2026},
+      eprint = {2610.38807},
+      archivePrefix = {arXiv},
+      primaryClass = {quant-ph},
+      url = {https://arxiv.org/abs/2610.38807}
+    }
+  bibtex_source: https://arxiv.org/abs/2610.38807
+  bibtex_status: reconstructed-from-official-metadata
